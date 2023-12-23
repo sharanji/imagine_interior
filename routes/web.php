@@ -56,6 +56,10 @@
         return view('front_end.blogdetail');
     });
 
+    Route::get('/testimonials{any}', function () {
+        return view('front_end.testimonial');
+    });
+
     Route::get('/gallery{any}', function () {
         $pageData['gallery_lables'] = DB::table('gallery_lables')
 						->orderby("gallery_lables.label_name","DESC")->get();
