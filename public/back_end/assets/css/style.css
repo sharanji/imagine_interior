@@ -1,0 +1,359 @@
+.btn {
+    padding: 10px !important;
+    font-size: 13px !important;
+    border-radius: 5px !important;
+}
+.newbar {
+    background: #216fa4;
+    padding: 10px 10px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.newbar a {
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.header-navbar-shadow {
+    display: none !important;
+}
+.header-navbar.navbar-shadow {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%);
+    position: fixed;
+}
+
+.newbar a i {
+    color: #c3c3c3;
+    font-size: 20px;
+}
+
+.sec-newbar {
+    background: #ffffff;
+    padding: 15px 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%);
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    top: 43px;
+}
+.sec-newbar a.sec-links {
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.sec-newbar a i.sec-links {
+    color: #c3c3c3;
+    font-size: 20px;
+}
+.sec-header-dropdown,
+.sec-header-dropdown1 a {
+    color: #3e92c4;
+}
+.dropdown-list {
+    text-align: left;
+}
+body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu {
+    z-index: 99999 !important;
+}
+body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu {
+    z-index: 99999 !important;
+}
+/* .header-navbar.floating-nav {
+   -margin: 8rem 2.2rem 0;
+    border-radius: 0.5rem;
+    position: fixed;
+    width: calc( 100vw - (100vw - 100%) - calc(2.2rem * 2) - 260px);
+    z-index: 12;
+    right: 0;
+    position: absolute;
+    top: 93px;
+} */
+/* section#page-account-settings {
+    margin-top: 90px;
+} */
+/* section#dashboard-analytics {
+    position: relative;
+    top: 80px;
+} */
+/**Table css start **/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+
+#customers tr:hover {
+    background-color: #fdfdfd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #626262;
+    font-size: 13px;
+}
+.fixed-newbars {
+    margin: 0px;
+}
+.mt-7 {
+    margin-top: 90px !important;
+}
+input.up-image-new {
+    border: 1px dashed #c7c7c7;
+    background-color: #0074ae;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 29px;
+    padding: 5px 0px 0px 0px;
+}
+.uploading-new {
+    float: left;
+    width: 130px;
+    border-left: 1px dashed #d8d8d8;
+    border-right: 1px dashed #d8d8d8;
+    text-align: center;
+    border-top: 1px dashed #d8d8d8;
+    margin: 0 auto;
+}
+.alert-success {
+    background: rgb(17 218 107) !important;
+    color: #fefffe !important;
+    z-index: 999999;
+    margin: 0px;
+    position: fixed;
+    width: 98%;
+}
+
+.alert-danger {
+    background: red !important;
+    color: #fefffe !important;
+    z-index: 999999;
+    margin: 0px;
+    position: fixed;
+    width: 98%;
+}
+
+/**Table css start **/
+.card-img-overlay {
+    top: unset;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0.5vw !important;
+    padding: 1.25rem;
+}
+
+.uplod_photo11 {
+    width: 108px !important;
+    background-color: #ffffff;
+    position: relative;
+    top: 130px;
+    /* margin: 0 auto; */
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 5px 0;
+    cursor: pointer;
+}
+input.upload-org-img {
+    display: none;
+}
+<!--Arun CSS-- > .whi_top11 {
+    margin: 24px 38px !important;
+}
+.grayback11 {
+    background: #ddd;
+    text-align: center;
+    padding: 20px 0px;
+}
+#text-shop {
+    color: black;
+    padding-left: 20px;
+}
+
+.pricenw22 {
+    color: #333333;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    margin-top: 0px !important;
+    padding: 3px 0px;
+}
+
+.viewnw22 {
+    width: 120px;
+    height: 32px;
+    border-radius: 30px;
+    background-color: #0184ff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #0184ff;
+    margin-bottom: 5%;
+}
+ol.breadcrumb li a {
+    color: #000;
+}
+ul.action-links li a {
+    color: #000;
+    padding: 2px 14px;
+    width: 100%;
+    float: left;
+}
+li.breadcrumb-item.active a {
+    color: #999;
+}
+select.count-arrow:not([multiple="multiple"]) {
+    -webkit-appearance: auto;
+    padding-right: 0px;
+}
+p.txt-field-ex {
+    font-size: 12px;
+    color: #888888 !important;
+}
+
+/* Suresh Changes start */
+.font-size-sm {
+    font-size: 12px;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+legend {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.8125rem;
+}
+
+th.tab-medium-width,
+td.tab-medium-width {
+    min-width: 127px;
+    max-width: 140px;
+}
+
+th.tab-full-width,
+td.tab-full-width {
+    min-width: 213px;
+    max-width: 220px;
+}
+
+th.tab-maxfull-width,
+td.tab-maxfull-width {
+    min-width: 290px;
+    max-width: 300px;
+}
+div#err_product {
+    padding: 0px 0px 15px 0px;
+}
+/* a .card,.card a {
+    color: #626262;
+} */
+/* Suresh Changes end */
+
+.view-all {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+.view-all a {
+    color: rgb(110, 142, 247) !important;
+}
+
+/*------  Sharan Changes Dashboard Filters ------*/
+.dashboard-gradients {
+    color: #ffff;
+    border-radius: 7px;
+}
+.dashboard-gradients select {
+    background-color: #ffffff00;
+    border: none;
+    color: rgb(255, 248, 248);
+
+}
+
+@media only screen and (min-width: 900px) {
+    .dashboard-gradients .font-large {
+        opacity: 0.6;
+        font-size: 95px;
+        position: relative;
+        top: 25px;
+        right:17px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .dashboard-gradients .font-large {
+        display: none;
+    }
+    .dashboard-gradients .col-md-4{
+        display: none;
+    }
+    .dashboard-gradients select {
+        width: 100%;
+    }
+}
+
+.dashboard-gradients .users-icon-dashboard {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.dashboard-gradients .users-section-count {
+    font-size: 35px;
+    padding-bottom: 18px;
+}
+.dashboard-gradients .font-medium {
+    font-size: 16px;
+}
+i.background-font{
+    font-size: 150px;
+    opacity: 0.1;
+    position: absolute;
+    right: 20px;
+    top: 9px;
+    z-index:100;
+}
+.third-row .card{
+    
+    height: 12rem;
+    color: #ffff;
+}
+.third-row span.users-section{
+    font-size: 1.32rem;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+/*================================================================================
+	User Defined CSS
+================================================================================ */
