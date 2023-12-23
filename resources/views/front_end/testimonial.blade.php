@@ -31,7 +31,7 @@
 <section class="section">
     <link href="{{asset('assets/libs/tiny-slider/tiny-slider.css')}}" rel="stylesheet">
     <!-- Testi Start -->
-    <div class="container mt-100 mt-60">
+    <div class="container mt-1">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2 wow animate__ animate__fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
