@@ -50,7 +50,7 @@
 										if(file_exists(public_path('/uploads/admin_profile_image/'.auth()->user()->id.'.png')))
 										{
 											?>
-                            <img src="<?php echo asset('public/uploads/admin_profile_image/'.auth()->user()->id.'.png');?>" class="rounded-circle img-border box-shadow-1" alt="Profile Image">
+                            <img src="<?php echo asset('uploads/admin_profile_image/'.auth()->user()->id.'.png');?>" class="rounded-circle img-border box-shadow-1" alt="Profile Image">
                             <?php
 										}
 										else
