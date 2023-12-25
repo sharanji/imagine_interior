@@ -36,6 +36,10 @@
         return view('front_end.home');
     })->name('home');
 
+    Route::get('/index.html', function () {
+        return redirect("/");
+    });
+
     Route::get('/aboutus{any}', function () {
         return view('front_end.aboutus');
     });

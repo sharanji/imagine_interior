@@ -104,10 +104,10 @@
                     <img src="{{asset('assets/images/furniture/fea1.jpg')}}" class="img-fluid" alt="">
                     <div class="bg-overlay bg-linear-gradient-2"></div>
                     <div class="position-absolute bottom-0 end-0 start-0 m-4 mt-0">
-                        <a href="" class="d-flex justify-content-between align-items-center">
+                        <a href="{{url('gallery.html')}}" class="d-flex justify-content-between align-items-center">
                             <span>
                                 <span class="d-block title text-white title-dark fs-5 fw-semibold">Bedroom</span>
-                                <span class="fs-6 text-white-50 d-block">110 Items</span>
+                                <span class="fs-6 text-white-50 d-block">Artworks / Designs</span>
                             </span>
 
                             <i class="uil uil-arrow-up-right text-white title-dark fs-4"></i>
@@ -126,10 +126,10 @@
                                     <img src="{{asset('assets/images/furniture/fea2.jpg')}}" class="img-fluid" alt="">
                                     <div class="bg-overlay bg-linear-gradient-2"></div>
                                     <div class="position-absolute bottom-0 end-0 start-0 m-2 m-md-4 mt-0">
-                                        <a href="" class="d-flex justify-content-between align-items-center">
+                                        <a href="{{url('gallery.html')}}" class="d-flex justify-content-between align-items-center">
                                             <span>
                                                 <span class="d-block title text-white title-dark fs-5 fw-semibold">Kitchen</span>
-                                                <span class="fs-6 text-white-50 d-block">110 Items</span>
+                                                <span class="fs-6 text-white-50 d-block">Woodworks / Interiors</span>
                                             </span>
 
                                             <i class="uil uil-arrow-up-right text-white title-dark fs-4"></i>
@@ -144,10 +144,10 @@
                                     <img src="{{asset('assets/images/furniture/fea3.jpg')}}" class="img-fluid" alt="">
                                     <div class="bg-overlay bg-linear-gradient-2"></div>
                                     <div class="position-absolute bottom-0 end-0 start-0 m-2 m-md-4 mt-0">
-                                        <a href="" class="d-flex justify-content-between align-items-center">
+                                        <a href="{{url('gallery.html')}}" class="d-flex justify-content-between align-items-center">
                                             <span>
                                                 <span class="d-block title text-white title-dark fs-5 fw-semibold">Office</span>
-                                                <span class="fs-6 text-white-50 d-block">110 Items</span>
+                                                <span class="fs-6 text-white-50 d-block">Furnishments / Plans</span>
                                             </span>
 
                                             <i class="uil uil-arrow-up-right text-white title-dark fs-4"></i>
@@ -168,10 +168,10 @@
                                     <img src="{{asset('assets/images/furniture/fea4.jpg')}}" class="img-fluid" alt="">
                                     <div class="bg-overlay bg-linear-gradient-2"></div>
                                     <div class="position-absolute bottom-0 end-0 start-0 m-2 m-md-4 mt-0">
-                                        <a href="" class="d-flex justify-content-between align-items-center">
+                                        <a href="{{url('gallery.html')}}" class="d-flex justify-content-between align-items-center">
                                             <span>
                                                 <span class="d-block title text-white title-dark fs-5 fw-semibold">Living Room</span>
-                                                <span class="fs-6 text-white-50 d-block">110 Items</span>
+                                                <span class="fs-6 text-white-50 d-block">Interiors</span>
                                             </span>
 
                                             <i class="uil uil-arrow-up-right text-white title-dark fs-4"></i>
@@ -186,10 +186,10 @@
                                     <img src="{{asset('assets/images/furniture/fea5.jpg')}}" class="img-fluid" alt="">
                                     <div class="bg-overlay bg-linear-gradient-2"></div>
                                     <div class="position-absolute bottom-0 end-0 start-0 m-2 m-md-4 mt-0">
-                                        <a href="" class="d-flex justify-content-between align-items-center">
+                                        <a href="{{url('gallery.html')}}" class="d-flex justify-content-between align-items-center">
                                             <span>
                                                 <span class="d-block title text-white title-dark fs-5 fw-semibold">Dining Hall</span>
-                                                <span class="fs-6 text-white-50 d-block">110 Items</span>
+                                                <span class="fs-6 text-white-50 d-block">Customised Plans</span>
                                             </span>
 
                                             <i class="uil uil-arrow-up-right text-white title-dark fs-4"></i>
@@ -209,7 +209,7 @@
 
             <div class="col-12 mt-4">
                 <div class="text-center">
-                    <a href="" class="btn btn-link primary fw-semibold mb-0">See More Categories <span class="h5 mb-0 ms-1"><i class="uil uil-arrow-right align-middle"></i></span></a>
+                    <a href="{{url('gallery.html')}}" class="btn btn-link primary fw-semibold mb-0">See More Categories <span class="h5 mb-0 ms-1"><i class="uil uil-arrow-right align-middle"></i></span></a>
                 </div>
             </div>
             <!--end col-->

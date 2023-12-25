@@ -1,6 +1,6 @@
 @extends('back_end.template')
 @section('content')
-
+<link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
 
 
 <!-- breadcrumb start-->
@@ -94,7 +94,16 @@
                     @endphp
                     @foreach ($galleryImage as $image)
                     <div class="col-3 my-1">
+                        @php
+                        $mimeType = explode(".",$image->image_label)
+                        @endphp
+                        @if (end($mimeType) =='mp4')
+                        <video id="my-video" class="video-js" controls preload="auto" width="300px" height="300px" poster="{{asset("uploads/video.png")}}" data-setup="{}">
+                            <source src="{{asset("uploads/gallery_images/$image->image_label")}}" type="video/mp4" />
+                        </video>
+                        @else
                         <img src="{{asset("uploads/gallery_images/$image->image_label")}}" alt="asdf" class="rounded" width="100%" height="300px">
+                        @endif
                     </div>
                     @endforeach
                     <div class="col-12 text-center mt-4">
@@ -120,5 +129,5 @@
         </div>
     </div>
 </section>
-
+<script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
 @endsection
