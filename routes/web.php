@@ -28,6 +28,12 @@
     // Gallery
 	Route::match(array('GET','POST'),'/manage-gallery.html',[GalleryController::class,'manageGallery']);
 	Route::match(array('POST'),'/add-gallery-label',[GalleryController::class,'addGalleryLabel'])->name('addGalleryLabel');
+	
+    // Tariff
+    Route::match(array('GET','POST'),'/manage-tariff.html',[TariffController::class,'manageTariff']);
+    Route::match(array('GET','POST'),'/manage-tariff.html/{type}',[TariffController::class,'manageTariff']);
+    Route::match(array('GET','POST'),'/manage-tariff.html/{type}/{id}',[TariffController::class,'manageTariff']);
+	// Route::match(array('POST'),'/add-gallery-label',[TariffController::class,'addGalleryLabel'])->name('addTariff');
 
 
 
@@ -62,6 +68,11 @@
 
     Route::get('/testimonials{any}', function () {
         return view('front_end.testimonial');
+    });
+
+    Route::get('/tariff{any}', function () {
+        $pageData['tariffs'] = DB::table('tariff')->get();
+        return view('front_end.tariff',$pageData);
     });
 
     Route::get('/gallery{any}', function () {

@@ -44,7 +44,21 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="gallery.html" class="sub-menu-item">Our Gallery</a></li>
+                <li class="has-submenu parent-parent-menu-item">
+                    <a href="javascript:void(0)">Gallerys & Plans</a><span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><a href="gallery.html" class="sub-menu-item">Gallery</a></li>
+                                        <li><a href="tariff.html" class="sub-menu-item">Tariff Plans</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="testimonials.html" class="sub-menu-item">Testimonials</a></li>
                 <li><a href="view-360.html" class="sub-menu-item">Virtual Tour</a></li>
                 <li><a href="contact.html" class="sub-menu-item">Contact Us</a></li>

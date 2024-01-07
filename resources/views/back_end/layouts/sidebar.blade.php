@@ -61,7 +61,17 @@
 
                 </ul>
             </li>
-            <!-- Purchase End-->
+
+            <li class="nav-item @if(isset($tariff))has-sub open @endif">
+                <a href="#"><i class="feather icon-crosshair"></i><span class="menu-title">Tariff</span></a>
+                <ul class="menu-content">
+
+                    <li --class="@if(isset($tariff)) active @endif">
+                        <a href="{{url('manage-tariff.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Tariff</span></a>
+                    </li>
+
+                </ul>
+            </li>
 
 
 
