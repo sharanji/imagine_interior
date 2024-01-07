@@ -21,10 +21,6 @@
         <!--end row-->
 
         <ul class="list-unstyled mt-4 mb-0 position-middle-bottom">
-            <li class="align-items-center justify-content-center list-inline-item mx-2">
-                <i class="uil uil-clock fs-5 text-white title-dark align-middle"></i>
-                <span class="text-white-50 ms-1">10 Weeks</span>
-            </li>
 
             <li class="align-items-center justify-content-center list-inline-item mx-2">
                 <i class="uil uil-signal fs-5 text-white title-dark align-middle"></i>
@@ -33,22 +29,12 @@
 
             <li class="align-items-center justify-content-center list-inline-item mx-2">
                 <i class="uil uil-book-open fs-5 text-white title-dark align-middle"></i>
-                <span class="text-white-50 ms-1">16 Lessons</span>
-            </li>
-
-            <li class="align-items-center justify-content-center list-inline-item mx-2">
-                <i class="uil uil-cube fs-5 text-white title-dark align-middle"></i>
-                <span class="text-white-50 ms-1">0 Quiz</span>
-            </li>
-
-            <li class="align-items-center justify-content-center list-inline-item mx-2">
-                <i class="uil uil-book-reader fs-5 text-white title-dark align-middle"></i>
-                <span class="text-white-50 ms-1">5 Students</span>
+                <span class="text-white-50 ms-1">{{count($tariffs)}} Popular Plans</span>
             </li>
 
             <li class="align-items-center justify-content-center list-inline-item mx-2">
                 <i class="uil uil-shopping-cart fs-5 text-white title-dark align-middle"></i>
-                <a href="#!" class="text-white">Enquire Now</a>
+                <a href="{{url('contact.html')}}" class="text-white">Enquire Now</a>
             </li>
         </ul>
     </div>
