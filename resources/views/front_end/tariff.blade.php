@@ -98,7 +98,7 @@
                         </div>
                         <!--end col-->
                         @endforeach
-                        <div class="col-md-6 mt-4 pt-2">
+                        {{-- <div class="col-md-6 mt-4 pt-2">
                             <h5 class="mb-0">Mastery</h5>
 
                             <div class="table-responsive bg-white shadow rounded mt-4">
@@ -260,7 +260,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div> --}}
                         <!--end col-->
                     </div>
                     <!--end row-->
