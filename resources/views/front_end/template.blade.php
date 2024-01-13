@@ -24,7 +24,7 @@
     <link href="{{asset('assets/libs/@iconscout/unicons/css/line.css')}}" type="text/css" rel="stylesheet">
     <!-- Style Css-->
     <link href="{{asset('assets/css/style-yellow.min.css')}}" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -39,15 +39,73 @@
     </div>
     <!-- Loader -->
     @include('front_end.components.header')
+    <style>
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            right: 0%;
+            z-index: 100;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 12px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+        }
+
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+
+        .facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+    </style>
+    <body>
+
+        <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa fa-instagram"></i></a>
+            {{-- <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> --}}
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+        </div>
+
+        @yield('content')
 
 
-    @yield('content')
+        @include('front_end.components.footer')
 
 
-    @include('front_end.components.footer')
-
-
-    {{-- <!-- Cookies Start -->
+        {{-- <!-- Cookies Start -->
     <div class="card cookie-popup shadow rounded py-3 px-4">
         <p class="text-muted mb-0">This website uses cookies to provide you with a great user experience. By using it, you accept our <a href="https://shreethemes.in" target="_blank" class="text-success h6">use of cookies</a></p>
         <div class="cookie-popup-actions text-end">
@@ -55,26 +113,26 @@
         </div>
     </div>
     <!--Note: Cookies Js including in plugins.init.js')}} (path like; js/plugins.init.js')}}) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
-    <!-- Cookies End --> --}}
+        <!-- Cookies End --> --}}
 
 
-    <!-- Back to top -->
-    <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
-    <!-- Back to top -->
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
 
-    <!-- javascript -->
-    <!-- JAVASCRIPT -->
-    <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <!-- Lightbox -->
-    <script src="{{asset('assets/libs/shufflejs/shuffle.min.js')}}"></script>
-    <script src="{{asset('assets/libs/tobii/js/tobii.min.js')}}"></script>
-    <!-- Parallax -->
-    <script src="{{asset('assets/libs/jarallax/jarallax.min.js')}} "></script>
-    <!-- Main Js -->
-    <script src="{{asset('assets/libs/feather-icons/feather.min.js')}}"></script>
-    <script src="{{asset('assets/js/plugins.init.js')}}"></script>
-    <!--Note: All init (custom) js like tiny slider, counter, countdown, lightbox, gallery, swiper slider etc.-->
-    <script src="{{asset('assets/js/app.js')}}"></script>
-    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
-</body>
+        <!-- javascript -->
+        <!-- JAVASCRIPT -->
+        <script src="{{asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <!-- Lightbox -->
+        <script src="{{asset('assets/libs/shufflejs/shuffle.min.js')}}"></script>
+        <script src="{{asset('assets/libs/tobii/js/tobii.min.js')}}"></script>
+        <!-- Parallax -->
+        <script src="{{asset('assets/libs/jarallax/jarallax.min.js')}} "></script>
+        <!-- Main Js -->
+        <script src="{{asset('assets/libs/feather-icons/feather.min.js')}}"></script>
+        <script src="{{asset('assets/js/plugins.init.js')}}"></script>
+        <!--Note: All init (custom) js like tiny slider, counter, countdown, lightbox, gallery, swiper slider etc.-->
+        <script src="{{asset('assets/js/app.js')}}"></script>
+        <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
 </html>

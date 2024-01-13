@@ -4,7 +4,7 @@
             <div class="col-12 py-lg-5">
                 <div class="footer-py-60 text-center">
                     <a href="#" class="logo-footer">
-                        <img src="{{asset('assets/images/logo-light.png')}}" height="32" alt="">
+                        <img src="{{asset('uploads/logo.png')}}" height="32" alt="">
                     </a>
                     <p class="mt-4 para-desc mx-auto">Start working with Imagine Interiors that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">

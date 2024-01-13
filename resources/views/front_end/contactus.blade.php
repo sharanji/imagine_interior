@@ -52,7 +52,7 @@
                     <div class="content mt-4">
                         <h5 class="fw-bold">Phone</h5>
                         <p class="text-muted">Start working with ImagineInteriors that can provide everything</p>
-                        <a href="tel:+152534-468-854" class="read-more">+152 534-468-854</a>
+                        <a href="tel:+152534-468-854" class="read-more">+91 7397776102</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <div class="content mt-4">
                         <h5 class="fw-bold">Email</h5>
                         <p class="text-muted">Start working with ImagineInteriors that can provide everything</p>
-                        <a href="mailto:contact@example.com" class="read-more">contact@example.com</a>
+                        <a href="mailto:contact@example.com" class="read-more">contact@imagineinterior.com</a>
                     </div>
                 </div>
             </div>
@@ -79,8 +79,8 @@
                     </div>
                     <div class="content mt-4">
                         <h5 class="fw-bold">Location</h5>
-                        <p class="text-muted">C/54 abc <br>Hosur, India 635109</p>
-                        <a href="Old+Rayakottah+Hudco,+Hosur,+Tamil+Nadu+635109/@12.7140632,77.8295297,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae70b3064e7e59:0xc61546d477a876c5!8m2!3d12.7148366!4d77.8410163!16s%2Fg%2F1tf1m83_" data-type="iframe" class="video-play-icon read-more lightbox">View on Google map</a>
+                        <p class="text-muted">172,TNHB Phase XV,Royakottai Road,<br>Pillaiyar Nagar, Karapalli Hosur, India 635109</p>
+                        <a href="https://www.google.com/maps/search/172,TNHB+Phase+XV,Royakottai+Road/@12.7128642,77.8462656,17z/data=!3m1!4b1?entry=ttu" data-type="iframe" class="video-play-icon read-more lightbox">View on Google map</a>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@
             <div class="col-12 p-0">
                 <div class="card map border-0">
                     <div class="card-body p-0">
-                        <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=12.710379055747055, 77.84468799509602&amp;q=Old+Rayakottah+Hudco,+Hosur,+Tamil+Nadu+635109/@12.710379055747055, 77.84468799509602,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae70b3064e7e59:0xc61546d477a876c5!8m2!3d12.7148366!4d77.8410163!16s%2Fg%2F1tf1m83_    ;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="border:0" allowfullscreen>
+                        <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=12.7128642,77.8462656&amp;q=Old+Rayakottah+Hudco,+Hosur,+Tamil+Nadu+635109/@12.7128642,77.8462656,15z/data=!3m1!4b1!4m6!3m5!1s0x3bae70b3064e7e59:0xc61546d477a876c5!8m2!3d12.7148366!4d77.8410163!16s%2Fg%2F1tf1m83_    ;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="border:0" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
