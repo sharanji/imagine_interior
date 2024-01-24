@@ -4,10 +4,10 @@
         <!-- Logo container-->
         <a class="logo" href="index.html">
             <span class="logo-light-mode">
-                <img src="{{asset('uploads/logo2.png')}}" class="l-dark" height="24" alt="">
-                <img src="{{asset('uploads/logo.png')}}" class="l-light" height="24" alt="">
+                <img src="{{asset('uploads/logo1.png')}}" class="l-dark" height="50" alt="">
+                <img src="{{asset('uploads/logo1.png')}}" class="l-light" height="50" alt="">
             </span>
-            <img src="{{asset('uploads/logo.png')}}" height="24" class="logo-dark-mode" alt="">
+            <img src="{{asset('uploads/logo1.png')}}" height="50" class="logo-dark-mode" alt="">
         </a>
 
         <!-- End Logo container-->
@@ -62,6 +62,7 @@
                 <li><a href="testimonials.html" class="sub-menu-item">Testimonials</a></li>
                 <li><a href="view-360.html" class="sub-menu-item">Virtual Tour</a></li>
                 <li><a href="contact.html" class="sub-menu-item">Contact Us</a></li>
+                <li><a href="./admin" class="sub-menu-item">Admin Login</a></li>
             </ul>
             <!--end navigation menu-->
         </div>

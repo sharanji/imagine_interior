@@ -18,10 +18,10 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="title-heading position-relative mt-5" style="z-index: 1;">
-                                    <h1 class="fw-bold display-4 mb-3 text-white title-dark">Luxurious <br>Furniture</h1>
-                                    <p class="para-desc text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                                    <h1 class="fw-bold display-4 mb-3 text-white title-dark">Imagine Interiors</h1>
+                                    <p class="para-desc text-white-50">Crafting spaces that speak volumes, because your home deserves a story worth telling.Elevate your living with our exquisite designs – where style meets the warmth of home.</p>
                                     <div class="mt-4 pt-2">
-                                        <a href="{{url('/view-360.html')}}" class="btn btn-primary">Explore 360 view</a>
+                                        <a href="{{url('/view-360.html')}}" class="btn btn-primary">Experiance 360 view</a>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                             <div class="col-12">
                                 <div class="title-heading position-relative mt-5" style="z-index: 1;">
                                     <h1 class="fw-bold display-4 mb-3 text-white title-dark">Modern Interior <br> For House</h1>
-                                    <p class="para-desc text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                                    <p class="para-desc text-white-50">Designing dreams into reality, one room at a time. Welcome to a world of timeless elegance. <br> Transforming houses into homes, where every detail reflects your unique story.</p>
                                     <div class="mt-4 pt-2">
                                         <a href="#!" class="btn btn-primary">Explore Now</a>
                                     </div>
@@ -91,7 +91,7 @@
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
                     <h4 class="title mb-4">Top Categories</h4>
-                    <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary fw-bold">Imagine Interiors</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary fw-bold">Imagine Interiors</span> and Discover Endless Possibilities with Our Top Categories.</p>
                 </div>
             </div>
             <!--end col-->
@@ -223,7 +223,7 @@
             <div class="col-12">
                 <div class="section-title text-center mb-4 pb-2">
                     <h4 class="title mb-4">Best Solutions for Your Home</h4>
-                    <p class="para-desc text-muted mx-auto mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                    <p class="para-desc text-muted mx-auto mb-0">Transform your home, one category at a time. Start your journey to inspired living today.</p>
                 </div>
             </div>
             <!--end col-->
@@ -235,11 +235,39 @@
                 <div class="card features feature-primary explore-feature border-0 rounded text-center">
                     <div class="card-body">
                         <div class="icons rounded-circle shadow-lg d-inline-block">
-                            <i data-feather="shopping-cart" class="fea"></i>
+                            <img src="{{asset("assets/conversation.png")}}" alt="Decor" width="50" height="50">
                         </div>
                         <div class="content mt-3">
-                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Delivery</a>
-                            <p class="text-muted mt-2">It is a long established fact that a reader will be of a page reader will be of a page when looking at its layout.</p>
+                            <a href="javascript:void(0)" class="title text-dark fw-semibold"> Interior Consultation</a>
+                            <p class="text-muted mt-2">Embark on a transformative journey with our Interior Consultation service, where personalized expertise meets your unique vision. Let us guide you to create a space that reflects your style and elevates your lifestyle.</p>
+                            <a href="javascript:void(0)" class="btn btn-link primary fw-semibold mb-0">Read More <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                    <div class="card-body">
+                        <div class="icons rounded-circle shadow-lg d-inline-block">
+                            <img src="{{asset("assets/feature-selection.png")}}" alt="Decor" width="50" height="50">
+                        </div>
+                        <div class="content mt-3">
+                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Furniture Selection and Placement</a>
+                            <p class="text-muted mt-2">Elevate your space effortlessly with our Furniture Selection and Placement service. Let us curate a harmonious blend of style and functionality, ensuring each piece is thoughtfully positioned for maximum impact and comfort.</p>
+                            <a href="javascript:void(0)" class="btn btn-link primary fw-semibold mb-0">Read More <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                    <div class="card-body">
+                        <div class="icons rounded-circle shadow-lg d-inline-block">
+                            <img src="{{asset("assets/web-design.png")}}" alt="Decor" width="50" height="50">
+                        </div>
+                        <div class="content mt-3">
+                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Customized Design Plans</a>
+                            <p class="text-muted mt-2">Immerse your surroundings in a symphony of hues with our Color Palette and Styling service. From timeless classics to vibrant palettes, we tailor colors to your taste, creating a visually stunning and harmonious atmosphere in every room.</p>
                             <a href="javascript:void(0)" class="btn btn-link primary fw-semibold mb-0">Read More <i class="uil uil-arrow-right"></i></a>
                         </div>
                     </div>
@@ -251,11 +279,11 @@
                 <div class="card features feature-primary explore-feature border-0 rounded text-center">
                     <div class="card-body">
                         <div class="icons rounded-circle shadow-lg d-inline-block">
-                            <i data-feather="codesandbox" class="fea"></i>
+                            <img src="{{asset("assets/color-palette.png")}}" alt="Decor" width="50" height="50">
                         </div>
                         <div class="content mt-3">
-                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Design Interior</a>
-                            <p class="text-muted mt-2">It is a long established fact that a reader will be of a page reader will be of a page when looking at its layout.</p>
+                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Color Palette and Styling</a>
+                            <p class="text-muted mt-2">Define your space with personality through our Decor and Accessories Curation service. From statement pieces to subtle accents, let us curate a collection that adds the perfect finishing touch, transforming your home into a reflection of your unique style.</p>
                             <a href="javascript:void(0)" class="btn btn-link primary fw-semibold mb-0">Read More <i class="uil uil-arrow-right"></i></a>
                         </div>
                     </div>
@@ -267,11 +295,25 @@
                 <div class="card features feature-primary explore-feature border-0 rounded text-center">
                     <div class="card-body">
                         <div class="icons rounded-circle shadow-lg d-inline-block">
-                            <i data-feather="phone" class="fea"></i>
+                            <img src="{{asset("assets/living-room.png")}}" alt="Decor" width="50" height="50">
                         </div>
                         <div class="content mt-3">
-                            <a href="javascript:void(0)" class="title text-dark fw-semibold">24/7 Support</a>
-                            <p class="text-muted mt-2">It is a long established fact that a reader will be of a page reader will be of a page when looking at its layout.</p>
+                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Decor and Accessories Curation</a>
+                            <p class="text-muted mt-2">Define your space with personality through our Decor and Accessories Curation service. From statement pieces to subtle accents, let us curate a collection that adds the perfect finishing touch, transforming your home into a reflection of your unique style.</p>
+                            <a href="javascript:void(0)" class="btn btn-link primary fw-semibold mb-0">Read More <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="card features feature-primary explore-feature border-0 rounded text-center">
+                    <div class="card-body">
+                        <div class="icons rounded-circle shadow-lg d-inline-block">
+                            <img src="{{asset("assets/outdoor.png")}}" alt="Decor" width="50" height="50">
+                        </div>
+                        <div class="content mt-3">
+                            <a href="javascript:void(0)" class="title text-dark fw-semibold">Space Optimization</a>
+                            <p class="text-muted mt-2">Unlock the full potential of your living spaces with our Space Optimization service. Our experts reimagine and maximize every inch, ensuring functionality meets aesthetics, creating a harmonious and efficient environment in your home.</p>
                             <a href="javascript:void(0)" class="btn btn-link primary fw-semibold mb-0">Read More <i class="uil uil-arrow-right"></i></a>
                         </div>
                     </div>

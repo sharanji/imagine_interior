@@ -4,9 +4,9 @@
             <div class="col-12 py-lg-5">
                 <div class="footer-py-60 text-center">
                     <a href="#" class="logo-footer">
-                        <img src="{{asset('uploads/logo.png')}}" height="32" alt="">
+                        <img src="{{asset('uploads/logo1.png')}}" height="32" alt="">
                     </a>
-                    <p class="mt-4 para-desc mx-auto">Start working with Imagine Interiors that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p class="mt-4 para-desc mx-auto">Explore our curated designs and make your home a masterpiece. ©ImagineInteriors.</p>
                     <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                         <li class="list-inline-item mb-0"><a href="https://1.envato.market/Imagine Interiors" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
                         <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>

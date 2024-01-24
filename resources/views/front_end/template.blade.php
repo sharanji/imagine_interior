@@ -88,6 +88,11 @@
             color: white;
         }
 
+        .login {
+            background: #1d7ae4;
+            color: white;
+        }
+
     </style>
     <body>
 
