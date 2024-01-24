@@ -10,7 +10,7 @@
             <div class="col-lg-12 text-center">
                 <div class="pages-heading title-heading">
                     <h2 class="text-white title-dark"> Our Gallery </h2>
-                    <p class="text-white-50 para-desc mb-0 mx-auto">Start working with Imagine Interiors that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p class="text-white-50 para-desc mb-0 mx-auto">Start working with Imagine Interiors and Discover Endless Possibilities with Our Top Categories.</p>
                 </div>
             </div>
             <!--end col-->

@@ -8,12 +8,12 @@
                     <span class="badge text-bg-success h6 rounded-pill">₹7,900 only full Plan</span>
                     <h2 class="title text-white title-dark mt-3 mb-0"> Make your dream home now </h2>
 
-                    <ul class="list-unstyled mt-3 mb-0">
+                    {{-- <ul class="list-unstyled mt-3 mb-0">
                         <li class="align-items-center justify-content-center list-inline-item mx-1">
                             <img src="{{asset('assets/images/client/05.jpg')}}" class="avatar avatar-ex-small rounded-pill shadow" alt="">
-                            <a href="javascript:void(0)" class="text-white title-dark ms-1">Cristina Murphy</a>
-                        </li>
-                    </ul>
+                    <a href="javascript:void(0)" class="text-white title-dark ms-1">Cristina Murphy</a>
+                    </li>
+                    </ul> --}}
                 </div>
             </div>
             <!--end col-->
@@ -24,7 +24,7 @@
 
             <li class="align-items-center justify-content-center list-inline-item mx-2">
                 <i class="uil uil-signal fs-5 text-white title-dark align-middle"></i>
-                <span class="text-white-50 ms-1">All Levels</span>
+                <span class="text-white-50 ms-1">All Categorys</span>
             </li>
 
             <li class="align-items-center justify-content-center list-inline-item mx-2">
@@ -33,7 +33,7 @@
             </li>
 
             <li class="align-items-center justify-content-center list-inline-item mx-2">
-                <i class="uil uil-shopping-cart fs-5 text-white title-dark align-middle"></i>
+                <img src="{{asset('assets/information.png')}}" alt="Enuire" height="25" width="25">
                 <a href="{{url('contact.html')}}" class="text-white">Enquire Now</a>
             </li>
         </ul>
