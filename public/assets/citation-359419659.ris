@@ -1,0 +1,12 @@
+TY  - CHAP
+AU  - Thorat, Adhiksha
+AU  - Bhute, Avinash
+PY  - 2022/03/01
+SP  - 425
+EP  - 436
+N2  - WebRTC is a framework that helps to facilitate real-time communication between browsers. It provides services through application programming interface (API) and allows web applications and sites to exchange video and audio streams in real time. It is an open-source software developed by Google. The research presented in this paper delves into the development of a multi-peer video conferencing application that is developed using technologies like WebRTC, Node.js and Socket.io. WebRTC establishes a peer-to-peer network, and Socket.io (a library in Node.js) acts as a signalling mechanism for exchanging data necessary for establishing this network. The developed application works well on most web browsers and provides great user experience with rooms, live chat, games and many other features. The paper helps in understanding how these technologies can be used together to achieve a robust and secure application.
+SN  - 978-981-16-9884-2
+T1  - SquashCord: Video Conferencing Application Using WebRTC
+VL  - 
+DO  - 10.1007/978-981-16-9885-9_35
+ER  - 

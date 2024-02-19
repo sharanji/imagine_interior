@@ -1,0 +1,246 @@
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoonda59.eot?vdw2jk');
+  src:  url('../fonts/icomoonda59.eot?vdw2jk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoonda59.ttf?vdw2jk') format('truetype'),
+    url('../fonts/icomoonda59.woff?vdw2jk') format('woff'),
+    url('../fonts/icomoonda59.svg?vdw2jk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+.icon-link:before {
+    content: "\e900" !important;
+}
+.icon-maps-and-location:before {
+  content: "\e901";
+}
+.icon-music:before {
+  content: "\e902";
+}
+.icon-success:before {
+  content: "\e903";
+}
+.icon-arrow:before {
+  content: "\e904";
+}
+.icon-phone:before {
+  content: "\e905";
+}
+.icon-quote:before {
+  content: "\e906";
+}
+.icon-win:before {
+  content: "\e907";
+}
+.icon-bag:before {
+  content: "\e908";
+}
+.icon-hr:before {
+  content: "\e909";
+}
+.icon-mail:before {
+  content: "\e90a";
+}
+.icon-pin:before {
+  content: "\e90b";
+}
+.icon-concept:before {
+  content: "\e90c";
+}
+.icon-search:before {
+  content: "\e90d";
+}
+.icon-wallet:before {
+  content: "\e90e";
+}
+.icon-guarantee-certificate:before {
+  content: "\e90f";
+}
+.icon-next:before {
+  content: "\e910";
+}
+.icon-scheme:before {
+  content: "\e911";
+}
+.icon-back:before {
+  content: "\e912";
+}
+.icon-cupboard:before {
+  content: "\e913";
+}
+.icon-support:before {
+  content: "\e914";
+}
+.icon-architecture-and-city:before {
+  content: "\e915";
+}
+.icon-question:before {
+  content: "\e916";
+}
+.icon-target:before {
+  content: "\e917";
+}
+.icon-architecture-and-city1:before {
+  content: "\e918";
+}
+.icon-sheriff:before {
+  content: "\e919";
+}
+.icon-teacher:before {
+  content: "\e91a";
+}
+.icon-cross:before {
+  content: "\e91b";
+}
+.icon-furniture-and-household:before {
+  content: "\e91c";
+}
+.icon-shop:before {
+  content: "\e91d";
+}
+.icon-company:before {
+  content: "\e91e";
+}
+.icon-lamp:before {
+  content: "\e91f";
+}
+.icon-sketch:before {
+  content: "\e920";
+}
+.icon-out:before {
+  content: "\e921";
+}
+.icon-paint:before {
+  content: "\e922";
+}
+.icon-plus:before {
+  content: "\e923";
+}
+.icon-floor:before {
+  content: "\e924";
+}
+.icon-maps-and-location1:before {
+  content: "\e925";
+}
+.icon-quote1:before {
+  content: "\e926";
+}
+.icon-pin1:before {
+  content: "\e927";
+}
+.icon-ruler:before {
+  content: "\e928";
+}
+.icon-window:before {
+  content: "\e929";
+}
+.icon-calendar:before {
+  content: "\e92a";
+}
+.icon-car:before {
+  content: "\e92b";
+}
+.icon-price:before {
+  content: "\e92c";
+}
+.icon-success1:before {
+  content: "\e92d";
+}
+.icon-group:before {
+  content: "\e92e";
+}
+.icon-guarantee-certificate1:before {
+  content: "\e92f";
+}
+.icon-hr1:before {
+  content: "\e930";
+}
+.icon-link1:before {
+  content: "\e931";
+}
+.icon-search1:before {
+  content: "\e932";
+}
+.icon-wallet1:before {
+  content: "\e933";
+}
+.icon-heart:before {
+    content: "\e934" !important;
+}
+.icon-tick:before {
+  content: "\e935";
+}
+.icon-comment:before {
+  content: "\e936";
+}
+.icon-productive:before {
+  content: "\e937";
+}
+.icon-document:before {
+  content: "\e938";
+}
+.icon-quote2:before {
+  content: "\e939";
+}
+.icon-kitchen:before {
+  content: "\e93a";
+}
+.icon-share:before {
+  content: "\e93b";
+}
+.icon-quote3:before {
+  content: "\e93c";
+}
+.icon-reload:before {
+  content: "\e93d";
+}
+.icon-cart:before {
+  content: "\e93e";
+}
+.icon-star:before {
+  content: "\e93f";
+}
+.icon-heart-1:before {
+  content: "\e940";
+}
+.icon-night:before {
+  content: "\e941";
+}
+.icon-global:before {
+  content: "\e942";
+}
+.icon-refresh:before {
+  content: "\e943";
+}
+.icon-support1:before {
+  content: "\e944";
+}
+.icon-shipping-and-delivery:before {
+  content: "\e945";
+}
+.icon-instagram:before {
+  content: "\e946" !important;
+}

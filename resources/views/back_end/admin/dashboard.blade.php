@@ -153,7 +153,7 @@
     <!--Row end-->
 
     <!--- Sale/Expense/Purchase Start -->
-    <form action="" method="get">
+    {{-- <form action="" method="get">
         <div class="row">
             <?php
 								$week =  date('W');
@@ -190,160 +190,160 @@
 															{
 																?>
                                         {{$value}}
-                                        <?php 
+    <?php 
 															}
 														} 
 													?>
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
-                                        <?php 
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
+        <?php 
 														foreach(DASHBOARD_FILTER as $key=>$value)
 														{
 															if($salesFilter != $key)
 															{
 																?>
-                                        <a href="{{url('salesfilter.html/'.$key)}}" class="dropdown-item">{{$value}}</a>
-                                        <?php 
+        <a href="{{url('salesfilter.html/'.$key)}}" class="dropdown-item">{{$value}}</a>
+        <?php 
 															}
 														} 
 													?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-contnt-mid">
-                            <div class="row">
-                                <div class="col-md-8">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="box-contnt-mid">
+        <div class="row">
+            <div class="col-md-8">
 
-                                    <h2 class="text-bold-700 mt-1 mb-25 text-white">
-                                        <?php echo CURRENCY_SYMBOL;?>
-                                    </h2>
-                                    <p class="mt-2 font-medium">Total Sale ()</p>
-                                </div>
+                <h2 class="text-bold-700 mt-1 mb-25 text-white">
+                    <?php echo CURRENCY_SYMBOL;?>
+                </h2>
+                <p class="mt-2 font-medium">Total Sale ()</p>
+            </div>
 
-                                <div class="col-md-4">
-                                    <div class="graph">
-                                        <i class="fa fa-shopping-bag font-large"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="sub-name-dashboard">Report : </p>
-                    </div>
+            <div class="col-md-4">
+                <div class="graph">
+                    <i class="fa fa-shopping-bag font-large"></i>
                 </div>
             </div>
-            <!--sale End-->
+        </div>
+    </div>
+    <p class="sub-name-dashboard">Report : </p>
+    </div>
+    </div>
+    </div>
+    <!--sale End-->
 
-            <!--Purchase Start-->
-            <div class="col-md-4">
-                <div class="section-new-1 mb-3 dashboard-gradients" style="background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );height: 16rem;">
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h4 class="text-white">
-                                    <span class="users-section">Purchase</span>
-                                </h4>
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <div class="dropdown chart-dropdown">
-                                    <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <!--Purchase Start-->
+    <div class="col-md-4">
+        <div class="section-new-1 mb-3 dashboard-gradients" style="background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );height: 16rem;">
+            <div class="p-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="text-white">
+                            <span class="users-section">Purchase</span>
+                        </h4>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="dropdown chart-dropdown">
+                            <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-contnt-mid">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <h2 class="text-bold-700 mt-1 mb-25 text-white">
-                                        <?php echo CURRENCY_SYMBOL?>
-
-                                    </h2>
-                                    <p class="mt-2 font-medium">Total Purchase ()</p>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="graph">
-                                        <i class="fa fa-shopping-cart font-large"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <p class="sub-name-dashboard">Report : </p>
                     </div>
                 </div>
-            </div>
-            <!--Purchase End-->
+                <div class="box-contnt-mid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="text-bold-700 mt-1 mb-25 text-white">
+                                <?php echo CURRENCY_SYMBOL?>
 
-            <!--Expense Start-->
-            <div class="col-md-4">
-                <div class="section-new-1 mb-3 dashboard-gradients" style="background-image: linear-gradient(120deg, #F761A1 0%, #8C1BAB 100%);height: 16rem;">
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-md-6 icons">
-                                <h4 class="text-white">
-                                    <span class="users-section">Expense</span>
-                                </h4>
+                            </h2>
+                            <p class="mt-2 font-medium">Total Purchase ()</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="graph">
+                                <i class="fa fa-shopping-cart font-large"></i>
                             </div>
-                            <div class="col-md-6 text-right">
-                                <div class="dropdown chart-dropdown">
-                                    <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <?php
+                        </div>
+                    </div>
+                </div>
+                <p class="sub-name-dashboard">Report : </p>
+            </div>
+        </div>
+    </div>
+    <!--Purchase End-->
+
+    <!--Expense Start-->
+    <div class="col-md-4">
+        <div class="section-new-1 mb-3 dashboard-gradients" style="background-image: linear-gradient(120deg, #F761A1 0%, #8C1BAB 100%);height: 16rem;">
+            <div class="p-2">
+                <div class="row">
+                    <div class="col-md-6 icons">
+                        <h4 class="text-white">
+                            <span class="users-section">Expense</span>
+                        </h4>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="dropdown chart-dropdown">
+                            <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <?php
 														$expenseFilter = Session::get('expense_filter')?Session::get('expense_filter'):'1';
 														foreach(DASHBOARD_FILTER as $key=>$value)
 														{
 															if($expenseFilter == $key)
 															{
 																?>
-                                        {{$value}}
-                                        <?php 
+                                {{$value}}
+                                <?php 
 															}
 														} 
 													?>
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
-                                        <?php 
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
+                                <?php 
 														foreach(DASHBOARD_FILTER as $key=>$value)
 														{
 															if($expenseFilter != $key)
 															{
 																?>
-                                        <a href="{{url('expensefilter.html/'.$key)}}" class="dropdown-item">{{$value}}</a>
-                                        <?php 
+                                <a href="{{url('expensefilter.html/'.$key)}}" class="dropdown-item">{{$value}}</a>
+                                <?php 
 															}
 														} 
 													?>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="box-contnt-mid">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <h2 class="text-bold-700 mt-1 mb-25 text-white">
-                                        <?php echo CURRENCY_SYMBOL;?>
-
-                                    </h2>
-                                    <p class="mt-2 font-medium">Total Expense ()</p>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="graph">
-                                        <i class="fa fa-credit-card font-large"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="sub-name-dashboard">Report : </p>
                     </div>
                 </div>
+                <div class="box-contnt-mid">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="text-bold-700 mt-1 mb-25 text-white">
+                                <?php echo CURRENCY_SYMBOL;?>
+
+                            </h2>
+                            <p class="mt-2 font-medium">Total Expense ()</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="graph">
+                                <i class="fa fa-credit-card font-large"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="sub-name-dashboard">Report : </p>
             </div>
-            <!--Expesnse End-->
         </div>
-    </form>
+    </div>
+    <!--Expesnse End-->
+    </div>
+    </form> --}}
     <!--- Sale/Expense/Purchase end -->
 
 

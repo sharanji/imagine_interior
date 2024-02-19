@@ -1,0 +1,3300 @@
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+    
+    
+ 
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1380px) {    
+/*** 
+=============================================
+    Top Bar Style2 Style
+=============================================
+***/     
+.top-style2-right .top-right-menu li {
+    padding-right: 10px;
+}
+.top-style2-right .topbar-social-links li {
+    padding-right: 20px;
+}    
+  
+/*** 
+=============================================
+    Main Header Header style2 Style
+=============================================
+***/     
+.header-style2 .inner-container {
+    position: relative;
+    padding: 0 25px;
+}    
+.main-menu.style2 .navigation > li {
+    margin-right: 35px;
+}
+.mainmenu-right.style2 {
+    margin-left: 0px;
+}
+    
+  
+ 
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1880px) {   
+    
+/*** 
+=============================================
+    Instagram Area Style
+=============================================
+***/
+.instagram-title {
+    margin-right: -30px;
+    padding: 190px 0;
+}    
+.instagram-title .pattern-bg {
+    position: absolute;
+    top: 0;
+    left: -500px;
+    bottom: -1000px;
+    right: 0;
+    background-repeat: repeat;
+    z-index: -1;
+}    
+    
+.instagram-items {
+    margin-right: 0;
+}    
+.instagram-items li {
+    width: 254px;
+}    
+ 
+   
+    
+    
+}
+
+
+
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {  
+/*** 
+=============================================
+    Main Header Header Style1 Style
+=============================================
+***/ 
+.header-upper-style1 .inner-container {
+    padding: 0 20px;
+}    
+.main-menu .navigation > li {
+    margin-right: 20px;
+}
+
+.header-lower-style1 .inner-content {
+    border: none;
+}    
+.header-contact-info {
+    border-left: none;
+    padding-left: 0;
+    float: none !important;
+    overflow: hidden;
+    margin-bottom: 23px;
+} 
+.header-contact-info li {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 50px;
+}
+.header-social-links-style1 {
+    padding-right: 0;
+    margin: 0;
+    float: none !important;
+    overflow: hidden;
+    text-align: center;
+}  
+.header-social-links-style1 li {
+    float: none;
+    margin-right: 0;
+    margin: 0 8px;
+}
+    
+/*** 
+=============================================
+    About Area style
+=============================================
+***/  
+.about-area {
+    padding-top: 60px;
+    padding-bottom: 146px;
+}    
+.about-text {
+    padding-left: 0px;
+}    
+.about-carousel-box .owl-dots {
+    margin-top: 80px !important;
+}
+    
+/*** 
+=============================================
+    Working Area style
+=============================================
+***/ 
+.single-working-box .text-holder .outer-box .icon {
+    width: 50px;
+}    
+.single-working-box .text-holder .outer-box .text {
+    padding-left: 0px;
+    padding-right: 10px;
+}   
+    
+/*** 
+=============================================
+    Working Process Area style
+=============================================
+***/  
+.single-working-process .inner {
+    padding: 82px 10px 50px;
+}    
+ 
+/*** 
+=============================================
+    Footer Area style
+=============================================
+***/ 
+.single-footer-widget.marbtm50{
+    margin-bottom: 50px;
+}
+ 
+    
+    
+    
+   
+/*** 
+=============================================
+    Top Bar Style2 style
+=============================================
+***/     
+.top-bar-style2 {
+    padding: 20px 20px;
+}    
+.top-style2-left {
+    overflow: hidden;
+    text-align: center;
+}    
+.top-style2-left p {
+    display: block;
+    float: none;
+}  
+.top-style2-left ul {
+    display: block;
+    overflow: hidden;
+    float: none;
+    padding-left: 0;
+}    
+.top-style2-left ul li {
+    display: inline-block;
+    float: none;
+    padding-right: 16px;
+    margin-right: 15px;
+} 
+    
+.top-style2-right {
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    padding-top: 11px;
+} 
+.top-style2-right .top-right-menu {
+    display: block;
+    overflow: hidden;
+    float: none;
+    padding-right: 0;
+    margin-right: 0;
+    text-align: center;
+}    
+.top-style2-right .top-right-menu:before {
+    display: none;
+} 
+.top-style2-right .top-right-menu li {
+    float: none;
+    padding-right: 0px;
+    margin: 0 5px;
+}    
+.top-style2-right .topbar-social-links {
+    display: block;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+}    
+.top-style2-right .topbar-social-links li {
+    float: none;
+    padding-right: 0;
+    margin: 0 13px;
+}    
+   
+/*** 
+=============================================
+    Main Header Header Style2 style
+=============================================
+***/     
+.header-style2 .inner-container {
+    position: relative;
+    padding: 0 10px;
+}    
+.main-menu.style2 .navigation > li {
+    margin-right: 20px;
+}    
+.main-menu.style2 .navigation > li.dropdown > a:after {
+    display: none;
+}    
+.mainmenu-right.style2 {
+    margin-left: 0px;
+}    
+.outer-search-box {
+    margin-right: 10px;
+}    
+.mainmenu-right.style2 .button {
+    margin-left: 15px;
+} 
+.mainmenu-right.style2 .button a {
+    padding: 0 15px 0;
+}    
+.mainmenu-right.style2 .button a.btn-one span:before {
+    display: none;
+}    
+
+/*** 
+=============================================
+    About Style2 Area style
+=============================================
+***/     
+.about-style2-image-box {
+    margin-top: 170px;
+}    
+.about-style2-image-box .pattern {
+    top: -110px;
+    left: 0;
+    right: 0;
+    bottom: -110px;
+    width: 100%;
+    height: auto;
+}    
+    
+/*** 
+=============================================
+    Working Style2 Area style
+=============================================
+***/      
+.single-working-box-style2 {
+    width: 50%;
+    margin-bottom: 60px;
+}    
+.working-style-bottom {
+    padding-top: 24px;
+}      
+ 
+/*** 
+=============================================
+    Why Choose Area style
+=============================================
+***/      
+.why-choose-content {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+    
+/*** 
+=============================================
+    Contact Details Area style
+=============================================
+***/     
+.contact-details-form-box .title-box {
+    padding-bottom: 25px;
+}
+.contact-details-form-box {
+    padding: 30px 60px 0px;
+    padding-left: 0;
+}    
+    
+/*** 
+=============================================
+    Brand Area Style2 style
+=============================================
+***/ 
+.brand-area.style2 {
+    padding-top: 110px;
+    padding-bottom: 80px;
+}      
+.single-brand-item.style2 {
+    max-width: 280px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}    
+
+/*** 
+=============================================
+    Instagram Area Style
+=============================================
+***/   
+.instagram-title {
+    margin-right: 0;
+    padding: 43px 0;
+}  
+.instagram-title .pattern-bg {
+    top: 0;
+    left: -500px;
+    bottom: -500px;
+    right: -500px;
+    background-repeat: repeat;
+}     
+.instagram-items {
+    margin-right: 0;
+}    
+.instagram-items li {
+    width: 154px;
+}     
+
+    
+    
+    
+    
+/*** 
+=============================================
+    Header Style3 Area style
+=============================================
+***/     
+.header-contact-info.style2 {
+    padding-left: 30px;
+    margin: 30px 0 30px;
+    float: left !important;
+}  
+.header-contact-info.style2 li {
+    margin-right: 20px;
+} 
+.header-contact-info.style2 li .single-item .icon {
+    width: 40px;
+}    
+.header-contact-info.style2 li .single-item .icon span:before {
+    top: 2px;
+    font-size: 40px;
+    line-height: 40px;
+}    
+.header-contact-info.style2 li .single-item .text {
+    padding-left: 10px;
+}    
+.header-contact-info.style2 li .single-item .text h3 {
+    font-size: 16px;
+}    
+.header-call-button {
+    width: 210px;
+    padding: 30px 10px 30px;
+}    
+.header-call-button .inner {
+    padding-right: 45px;
+}    
+.header-call-button .inner .icon span:before {
+    font-size: 30px;
+}    
+.header-call-button .inner .title h3 {
+    font-size: 16px;
+    margin: 3px 0 0;
+}    
+    
+/*** 
+=============================================
+    Mainmenu Style3 Area style
+=============================================
+***/      
+.main-menu.style3 .navigation > li > a {
+    padding: 30px 17px 26px;
+}    
+    
+/*** 
+=============================================
+    Brand Style3 style
+=============================================
+***/      
+.single-brand-item.style3 {
+    max-width: 130px;
+}    
+    
+/*** 
+=============================================
+    Footer Area Style3 Style
+=============================================
+***/
+.single-footer-widget .usefull-links ul {
+    float: none !important;
+}    
+.single-footer-widget .usefull-links ul.marleft30 {
+    margin-left: 0px;
+}    
+
+ 
+    
+/*** 
+=============================================
+    Company Overview Area Style
+=============================================
+***/ 
+.company-overview-area {
+    padding: 105px 0 86px;
+}    
+.intro-box {
+    position: relative;
+    display: block;
+    margin-bottom: 42px;
+} 
+.intro-box .text {
+    max-width: 770px;
+    width: 100%;
+    margin-top: 24px;
+}    
+.single-history-content .text-box {
+    padding-left: 20px;
+    min-height: auto;
+}    
+.single-history-content .text-box .inner {
+    padding-top: 40px;
+    padding-right: 20px;
+}        
+.single-history-content .text-box .inner .title {
+    position: relative;
+    display: block;
+    padding: 25px 0 20px;
+}    
+.single-history-content .text-box .inner .text p {
+    margin: 0 0 10px;
+}        
+.single-fact-counter {
+    margin-bottom: 30px;
+}    
+    
+/*** 
+=============================================
+    Footer Area Style4 Style
+=============================================
+***/     
+.single-footer-widget.s4 .usefull-links ul {
+    float: left !important;
+}
+li .single-footer-contact-info {
+    max-width: 310px;
+}    
+li .single-footer-contact-info .inner {
+    padding: 35px 15px 30px;
+}    
+li .single-footer-contact-info .text p br{
+    display: none;
+}    
+  
+    
+/*** 
+=============================================
+    Services Style2 Service Page Style
+=============================================
+***/      
+.services-style2-service-page .sec-title {
+    padding-bottom: 13px;
+}   
+.services-style2-service-page .text {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}    
+.single-service-style2 .text-holder .inner .text {
+    padding: 0 20px 32px;
+}    
+.single-service-style2 .text-holder .inner .text p {
+    font-size: 15px;
+    line-height: 25px;
+}    
+    
+/*** 
+=============================================
+    Single Service Area Style
+=============================================
+***/      
+.single-advantages-box {
+    margin-bottom: 30px;
+} 
+.how-work-box {
+    padding-top: 50px;
+}    
+.how-work-box .how-works-content {
+    padding-top: 50px;
+}    
+    
+/*** 
+=============================================
+    Project Description Area style
+=============================================
+***/      
+.project-description-image-box img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}    
+.project-description-content {
+    position: relative;
+    display: block;
+    z-index: 3;
+    padding-top: 50px;
+    padding-left: 0px;
+}    
+    
+/*** 
+=============================================
+    Project Info Area style
+=============================================
+***/
+.project-info-area {
+    padding-top: 44px;
+    padding-bottom: 110px;
+}    
+.project-info-area .pattern-bg {
+    top: auto;
+    right: 0;
+    bottom: 0;
+}    
+.project-info-content {
+    margin: -6px auto 30px;
+}    
+.project-info-image-box img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}    
+    
+/*** 
+=============================================
+    Blog Area Blog Single Area style
+=============================================
+***/    
+.blog-single-image-with-text-box .image-box li {
+    margin-right: 30px;
+    max-width: 270px;
+    width: 100%;
+}    
+.blog-prev-next-option .single {
+    max-width: 270px;
+    width: 100%;
+}    
+    
+/*** 
+=============================================
+    Main Shop Area style
+=============================================
+***/      
+.shop-sidebar-wrapper {
+    float: right;
+}    
+      
+/*** 
+=============================================
+    Login Register Area style
+=============================================
+***/     
+.login-register-area .form a.forgot-password {
+    margin: 70px 0 0;
+}    
+.login-register-area .form.register {
+    overflow: hidden;
+    margin-top: 50px;
+}    
+.login-register-area .form h6 {
+    margin: 28px 0 0;
+}               
+    
+/*** 
+=============================================
+    Job Career Brochures Area style
+=============================================
+***/      
+.job-career-brochures-box .overlay-content .innner .box h1 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 0 14px;
+}    
+
+/*** 
+=============================================
+    Blog Area Blog Large Area Area style
+=============================================
+***/      
+.single-blog-post.style4:before {
+    bottom: 0;
+}    
+    
+    
+    
+    
+    
+    
+
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+    
+/*** 
+=============================================
+    Main Header Header Style1 Style
+=============================================
+***/  
+.header-upper-style1 .inner-container {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+    margin-top: -45px;
+}    
+.logo-box-style1 {
+    position: absolute;
+    margin: 15px 0;
+    top: 0;
+    left: 20px;
+    float: none !important;
+    z-index: 33;
+}
+.main-menu-box {
+    position: relative;
+    display: block;
+    float: none !important;
+}   
+  
+.mainmenu-right {
+    position: absolute;
+    float: none;
+    margin-left: 0;
+    top: 0;
+    right: 60px;
+    z-index: 33;
+}    
+.mainmenu-right .outer-search-box {
+    padding: 15px 0;
+    margin-right: 20px;
+}
+.mainmenu-right .cart-box {
+    margin: 15px 0;
+}    
+.header-upper-style1.fixed-header .inner-container {
+    max-width: 690px;
+}  
+.header-upper-style1.fixed-header .logo-box-style1 {
+    margin: 15px 0;
+} 
+.header-upper-style1.fixed-header .outer-search-box {
+    padding: 15px 0;
+}   
+.header-upper-style1.fixed-header .cart-box {
+    margin: 15px 0;
+}
+
+    
+.header-lower-style1 .inner-content {
+    border: none;
+}    
+.header-contact-info {
+    border-left: none;
+    padding-left: 0;
+    float: none !important;
+    overflow: hidden;
+    margin-bottom: 23px;
+    text-align: center;
+    width: 290px;
+    margin: 0 auto 23px;
+}
+.header-contact-info li {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    float: none;
+    display: block;
+    margin-bottom: 25px;
+}
+.header-contact-info li:last-child{
+    margin-bottom: 0;
+}    
+.header-social-links-style1 {
+    padding-right: 0;
+    margin: 0;
+    float: none !important;
+    overflow: hidden;
+    text-align: center;
+}  
+.header-social-links-style1 li {
+    float: none;
+    margin-right: 0;
+    margin: 0 8px;
+}
+  
+/*** 
+=============================================
+    About Area style
+=============================================
+***/ 
+.about-area {
+    padding-top: 60px;
+    padding-bottom: 170px;
+}       
+.about-text {
+    padding-left: 0;
+    margin-top: 60px;
+}    
+.about-carousel-box .owl-dots {
+    margin-top: 80px !important;
+}    
+    
+/*** 
+=============================================
+    Slogan Area style
+=============================================
+***/     
+.slogan-area .flex-box-two {
+    justify-content: center;
+}    
+.slogan-area .title {
+    margin-bottom: 22px;
+    text-align: center;
+}    
+    
+/*** 
+=============================================
+    Appointment Area style
+=============================================
+***/      
+.appointment-area {
+    background: #27282c;
+    background-position: unset;
+    background-attachment: scroll;
+    background-size: cover;
+}   
+.appointment-box {
+    padding: 44px 50px 50px;
+    margin-top: 40px;
+}    
+    
+/*** 
+=============================================
+    Brand Area style
+=============================================
+***/
+.brand-area .sec-title {
+    padding-bottom: 130px;
+}    
+.brand-items-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: -100px;
+}     
+    
+/*** 
+=============================================
+    Footer Area style
+=============================================
+***/ 
+.single-footer-widget.marbtm50{
+    margin-bottom: 50px;
+}
+    
+    
+    
+    
+    
+/*** 
+=============================================
+    Top Bar Style2 style
+=============================================
+***/     
+.top-bar-style2 {
+    padding: 20px 20px;
+}    
+.top-style2-left {
+    overflow: hidden;
+    text-align: center;
+}    
+.top-style2-left p {
+    display: block;
+    float: none;
+}  
+.top-style2-left ul {
+    display: block;
+    overflow: hidden;
+    float: none;
+    padding-left: 0;
+}    
+.top-style2-left ul li {
+    display: inline-block;
+    float: none;
+    padding-right: 16px;
+    margin-right: 15px;
+} 
+    
+.top-style2-right {
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    padding-top: 11px;
+} 
+.top-style2-right .top-right-menu {
+    display: block;
+    overflow: hidden;
+    float: none;
+    padding-right: 0;
+    margin-right: 0;
+    text-align: center;
+}    
+.top-style2-right .top-right-menu:before {
+    display: none;
+} 
+.top-style2-right .top-right-menu li {
+    float: none;
+    padding-right: 0px;
+    margin: 0 5px;
+}    
+.top-style2-right .topbar-social-links {
+    display: block;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+}    
+.top-style2-right .topbar-social-links li {
+    float: none;
+    padding-right: 0;
+    margin: 0 13px;
+}    
+   
+/*** 
+=============================================
+    Main Header Header Style2 style
+=============================================
+***/     
+.header-style2 .inner-container {
+    position: relative;
+    padding: 0 20px;
+}    
+.logo-box-style2 {
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 20px;
+    margin: 15px 0;
+    z-index: 33;
+}    
+ 
+.mainmenu-right.style2 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    margin: 0;
+}
+.mainmenu-right.style2 .outer-search-box {
+    padding: 15px 0;
+    margin-right: 10px;
+} 
+.mainmenu-right.style2 .cart-box {
+    float: left;
+    margin: 15px 0;
+}    
+.mainmenu-right.style2 .button {
+    margin-left: 15px;
+    padding: 15px 0px;
+}
+.mainmenu-right.style2 .button a {
+    padding: 0 15px 0;
+}    
+.mainmenu-right.style2 .button a.btn-one span:before {
+    display: none;
+}    
+   
+/*** 
+=============================================
+    About Style2 Area style
+=============================================
+***/     
+.about-style2-image-box {
+    margin-top: 170px;
+}    
+.about-style2-image-box .pattern {
+    top: -110px;
+    left: 0;
+    right: 0;
+    bottom: -110px;
+    width: 100%;
+    height: auto;
+}    
+        
+/*** 
+=============================================
+    Working Style2 Area style
+=============================================
+***/      
+.single-working-box-style2 {
+    width: 50%;
+    margin-bottom: 60px;
+}       
+.working-style-bottom {
+    padding-top: 24px;
+}      
+    
+/*** 
+=============================================
+    Why Choose Area style
+=============================================
+***/      
+.why-choose-content {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+   
+/*** 
+=============================================
+    Contact Details Area style
+=============================================
+***/     
+.content-info-box {
+    min-height: 650px;
+    margin-right: 5px;
+}    
+.contact-details-form-box {
+    padding: 65px 60px 110px;
+    width: 100%;
+}    
+    
+/*** 
+=============================================
+    Brand Area Style2 style
+=============================================
+***/ 
+.brand-area.style2 {
+    padding-top: 110px;
+    padding-bottom: 80px;
+}    
+.brand-area.style2 .sec-title {
+    padding-bottom: 50px;
+}    
+.single-brand-item.style2 {
+    max-width: 200px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}    
+    
+/*** 
+=============================================
+    Instagram Area Style
+=============================================
+***/   
+.instagram-title {
+    margin-right: 0;
+    padding: 43px 0;
+}  
+.instagram-title .pattern-bg {
+    top: 0;
+    left: -500px;
+    bottom: -500px;
+    right: -500px;
+    background-repeat: repeat;
+}     
+.instagram-items {
+    margin-right: 0;
+}    
+.instagram-items li {
+    width: 115px;
+}       
+    
+/*** 
+=============================================
+    Footer Area Style2 Style
+=============================================
+***/
+.single-footer-widget.pdtop50-s2{
+    padding-top: 50px;
+}    
+.single-footer-widget .subscribe-form {
+    max-width: 450px;
+    width: 100%;
+}    
+
+    
+    
+    
+    
+/*** 
+=============================================
+    Header Style3 Area style
+=============================================
+***/      
+.logo-box-style3 {
+    margin: 30px 0;
+    float: none !important;
+    text-align: center;
+}    
+.header-contact-info.style2 {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    float: none !important;
+    width: 265px;
+}    
+.header-call-button {
+    width: 270px;
+    padding: 30px 30px 30px;
+    float: none !important;
+    margin: 25px auto 0;
+}    
+    
+/*** 
+=============================================
+    Mainmenu Style3 Area style
+=============================================
+***/      
+.mainmenu-right.style3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 33;
+    float: none !important;
+    display: inline-block;
+    right: auto;
+    margin: 5px 0;
+}  
+    
+/*** 
+=============================================
+    Featured Area style
+=============================================
+***/  
+.about-style3-content .button a.black {
+    margin-top: 20px;
+}       
+.about-style3-bg.banner-animate {
+    animation: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+    
+/*** 
+=============================================
+    Brand Style3 style
+=============================================
+***/      
+.single-brand-item.style3 {
+    max-width: 200px;
+}    
+  
+/*** 
+=============================================
+    Footer Area Style3 Style
+=============================================
+***/    
+.single-footer-widget.marbtm50-s3 {
+    margin-bottom: 50px;
+}    
+    
+/*** 
+=============================================
+    Company Overview Area Style
+=============================================
+***/ 
+.company-overview-area {
+    padding: 105px 0 86px;
+}     
+.intro-box {
+    position: relative;
+    display: block;
+    margin-bottom: 42px;
+} 
+.intro-box .text {
+    max-width: 770px;
+    width: 100%;
+    margin-top: 24px;
+}     
+.single-history-content .img-box {
+    width: 100%;
+    float: none;
+}    
+.single-history-content .img-box .inner {
+    padding-right: 0;
+} 
+.single-history-content .text-box {
+    width: 100%;
+    float: none;
+    padding-left: 30px;
+    min-height: auto;
+}    
+.single-history-content .text-box .inner {
+    position: relative;
+    display: block;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}    
+.single-fact-counter {
+    margin-bottom: 30px;
+}    
+    
+/*** 
+=============================================
+    Footer Area Style4 Style
+=============================================
+***/ 
+.footer-area.style4 {
+    padding: 110px 0 100px;
+}    
+.single-footer-widget.pdtop50-s4 {
+    padding-top: 50px;
+}  
+    
+/*** 
+=============================================
+    Footer Contact Info Area Style
+=============================================
+***/ 
+.footer-contact-info-area {
+    margin: 0;
+    padding: 30px 0 20px;
+}    
+li .single-footer-contact-info {
+    display: block;
+    float: none;
+    max-width: 300px;
+    width: 100%;
+    border-right: none;
+    overflow: hidden;
+    margin: 0 auto;
+}    
+li .single-footer-contact-info .inner {
+    position: relative;
+    display: block;
+    padding: 15px 0px 15px;
+}    
+    
+/*** 
+=============================================
+    Footer Bottom Area Style3 style
+=============================================
+***/       
+.footer-bottom-area.style3 {
+    padding: 29px 0 28px;
+}    
+
+
+/*** 
+=============================================
+    Timer Area style
+=============================================
+***/      
+.countdown-timer li {
+    margin: 0 3px;
+}    
+ 
+/*** 
+=============================================
+    Services Style2 Service Page Style
+=============================================
+***/      
+.services-style2-service-page .sec-title {
+    padding-bottom: 13px;
+}   
+.services-style2-service-page .text {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}    
+.single-service-style2 .text-holder .inner .text {
+    padding: 0 20px 32px;
+}    
+   
+/*** 
+=============================================
+    Single Service Area Style
+=============================================
+***/      
+.single-service-sidebar:before {
+    display: none;
+}    
+.single-service-top {
+    margin-top: 50px;
+}    
+.single-advantages-box {
+    margin-bottom: 30px;
+}    
+.how-work-box {
+    padding-top: 50px;
+}    
+.how-work-box .how-works-content {
+    padding-top: 50px;
+}    
+
+/*** 
+=============================================
+    Main Project Area Style5 Style
+=============================================
+***/     
+.single-project-style8 .overlay-content .inner-content .title-box h3 {
+    font-size: 15px;
+}    
+    
+/*** 
+=============================================
+    Project Description Area style
+=============================================
+***/      
+.project-description-image-box img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}    
+.project-description-content {
+    position: relative;
+    display: block;
+    z-index: 3;
+    padding-top: 50px;
+    padding-left: 0px;
+}    
+    
+/*** 
+=============================================
+    Project Info Area style
+=============================================
+***/
+.project-info-area {
+    padding-top: 44px;
+    padding-bottom: 110px;
+}    
+.project-info-area .pattern-bg {
+    top: auto;
+    right: 0;
+    bottom: 0;
+}    
+.project-info-content {
+    margin: -6px auto 30px;
+}    
+.project-info-image-box img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}    
+
+/*** 
+=============================================
+    Blog Area Blog Large Area style
+=============================================
+***/
+#blog-area.blog-large-area {
+    padding-bottom: 60px;
+}    
+.single-blog-post.style4 {
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+}  
+.single-blog-post.style4:before {
+    top: -300px;
+    left: 0;
+    bottom: 0;
+}    
+#blog-area .sidebar-wrapper {
+    position: relative;
+    display: block;
+    max-width: 300px;
+    margin-left: 0px;
+    z-index: 99;
+    padding-top: 100px;
+}    
+    
+/*** 
+=============================================
+    Blog Area Blog Single Area style
+=============================================
+***/ 
+#blog-area.blog-single-area {
+    position: relative;
+    display: block;
+    padding: 0 0 60px;
+}    
+.blog-single-area .blog-post {
+    margin-right: 0px;
+}    
+.blog-single-image-with-text-box .image-box li {
+    margin-right: 30px;
+    max-width: 329px;
+} 
+.blog-prev-next-option .single {
+    max-width: 330px;
+    width: 100%;
+}    
+    
+/*** 
+=============================================
+    Main Shop Area style
+=============================================
+***/        
+.shop-sidebar-wrapper {
+    padding-top: 100px;   
+}     
+    
+/*** 
+=============================================
+    Single Shop Area style
+=============================================
+***/
+.single-product-image-holder {
+    margin-right: 0;
+}    
+.single-shop-content .content-box {
+    margin-top: 40px;
+}
+    
+/*** 
+=============================================
+    Cart Area style
+=============================================
+***/      
+.cart-area .cart-bottom .calculate-shipping {
+    padding-bottom: 60px;
+}  
+    
+/*** 
+=============================================
+    Checkout Area style
+=============================================
+***/    
+.checkout-area .form.shipping-info {
+    padding-top: 60px;
+}    
+.checkout-area .cart-total {
+    padding-top: 60px;
+}          
+    
+/*** 
+=============================================
+    Login Register Area style
+=============================================
+***/     
+.login-register-area .form a.forgot-password {
+    margin: 70px 0 0;
+} 
+.login-register-area .register {
+    padding-top: 50px;
+}    
+.login-register-area .form h6 {
+    color: #797979;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 27px;
+}    
+  
+/*** 
+=============================================
+    Contact Address Area style
+=============================================
+***/
+.contact-address-area {
+    padding-bottom: 27px;
+}    
+.single-contact-address-box {
+    margin-top: -115px;
+    margin-bottom: 155px;
+}    
+.contact-address-area .bottom-text {
+    padding-top: 0;
+    margin-top: -100px;
+}    
+.contact-form-image-box {
+    position: relative;
+    z-index: 1;
+    top: -110px;
+    right: 0;
+}    
+    
+/*** 
+=============================================
+    Contact Info Area style
+=============================================
+***/    
+.contact-info-area {
+    padding: 110px 0 0px;
+}       
+    
+    
+    
+    
+    
+    
+    
+  
+
+
+    
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+/*** 
+=============================================
+    Main Header Header Style1 Style
+=============================================
+***/  
+.header-upper-style1 .inner-container {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    margin-top: -45px;
+}    
+.logo-box-style1 {
+    position: absolute;
+    margin: 22px 0 23px;
+    top: 0;
+    left: 10px;
+    float: none !important;
+    z-index: 33;
+}
+.logo-box-style1 img {
+    max-width: 70%;
+}    
+    
+.main-menu-box {
+    position: relative;
+    display: block;
+    float: none !important;
+}   
+  
+.mainmenu-right {
+    position: absolute;
+    float: none;
+    margin-left: 0;
+    top: 0;
+    right: 60px;
+    z-index: 33;
+}    
+.mainmenu-right .outer-search-box {
+    padding: 15px 0;
+    margin-right: 10px;
+}
+.mainmenu-right .cart-box {
+    margin: 15px 0;
+}    
+.header-upper-style1.fixed-header .inner-container {
+    max-width: 350px;
+}  
+.header-upper-style1.fixed-header .logo-box-style1 {
+    margin: 22px 0 23px;
+}
+.header-upper-style1.fixed-header .outer-search-box {
+    padding: 15px 0;
+}   
+.header-upper-style1.fixed-header .cart-box {
+    margin: 15px 0;
+}
+
+.header-lower-style1 .inner-content {
+    border: none;
+}    
+.header-contact-info {
+    border-left: none;
+    padding-left: 0;
+    float: none !important;
+    overflow: hidden;
+    margin-bottom: 23px;
+    text-align: center;
+    width: 290px;
+    margin: 0 auto 23px;
+}
+.header-contact-info li {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    float: none;
+    display: block;
+    margin-bottom: 25px;
+}
+.header-contact-info li:last-child{
+    margin-bottom: 0;
+}    
+.header-social-links-style1 {
+    padding-right: 0;
+    margin: 0;
+    float: none !important;
+    overflow: hidden;
+    text-align: center;
+}  
+.header-social-links-style1 li {
+    float: none;
+    margin-right: 0;
+    margin: 0 8px;
+}
+    
+/*** 
+=============================================
+    About Area style
+=============================================
+***/ 
+.about-area {
+    padding-top: 60px;
+    padding-bottom: 170px;
+} 
+.about-image-box {
+    padding-top: 20px;
+    padding-left: 20px;
+}    
+.about-text {
+    padding-left: 0;
+    margin-top: 60px;
+}  
+.about-carousel-box .single-box .icon-holder, 
+.about-carousel-box .single-box .text-holder {
+    display: block;
+    vertical-align: middle;
+}  
+.about-carousel-box .single-box .text-holder {
+    padding-left: 0px;
+    margin-top: 30px;
+}    
+.about-carousel-box .owl-dots {
+    margin-top: 80px !important;
+}    
+ 
+/*** 
+=============================================
+    Recently Project Area style
+=============================================
+***/     
+.recently-project-area .sec-title {
+    padding-bottom: 24px;
+    float: none !important;
+}    
+.more-project-button {
+    float: none !important;
+    margin: 0;
+    padding-bottom: 52px;
+}  
+    
+/*** 
+=============================================
+    Slogan Area style
+=============================================
+***/     
+.slogan-area .flex-box-two {
+    justify-content: center;
+}    
+.slogan-area .title {
+    margin-bottom: 22px;
+    text-align: center;
+}    
+   
+/*** 
+=============================================
+    Testimonial Area style
+=============================================
+***/     
+.testimonial-area .sec-title {
+    padding-bottom: 24px;
+    float: none !important;
+}    
+.more-reviews-button {
+    float: none !important;
+    margin: 0;
+    padding-bottom: 52px;
+}  
+    
+/*** 
+=============================================
+    Appointment Area style
+=============================================
+***/      
+.appointment-area {
+    background: #27282c;
+    background-position: unset;
+    background-attachment: scroll;
+    background-size: cover;
+}   
+.appointment-box {
+    padding: 44px 30px 50px;
+    margin-top: 40px;
+}    
+    
+/*** 
+=============================================
+    Brand Area style
+=============================================
+***/
+.brand-area .sec-title {
+    padding-bottom: 130px;
+}    
+.brand-items-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: -100px;
+}    
+    
+/*** 
+=============================================
+    Footer Area style
+=============================================
+***/ 
+.single-footer-widget.marbtm50{
+    margin-bottom: 50px;
+}    
+.single-footer-widget.pdbtm50{
+    padding-bottom: 50px;
+}       
+    
+/*** 
+=============================================
+    Footer Bottom Area style
+=============================================
+***/     
+.footer-bottom-content.flex-box-two{
+    justify-content: center;
+}   
+   
+    
+  
+  
+    
+/*** 
+=============================================
+    Top Bar Style2 style
+=============================================
+***/     
+.top-bar-style2 {
+    padding: 20px 20px;
+}    
+.top-style2-left {
+    overflow: hidden;
+    text-align: center;
+}    
+.top-style2-left p {
+    display: block;
+    float: none;
+}  
+.top-style2-left ul {
+    display: block;
+    overflow: hidden;
+    float: none;
+    padding-left: 0;
+}    
+.top-style2-left ul li {
+    display: inline-block;
+    float: none;
+    padding-right: 0;
+    margin-right: 0;
+    margin: 0 10px;
+}
+.top-style2-left ul li:before {
+    display: none;
+}    
+    
+.top-style2-right {
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    padding-top: 11px;
+} 
+.top-style2-right .top-right-menu {
+    display: block;
+    overflow: hidden;
+    float: none;
+    padding-right: 0;
+    margin-right: 0;
+    text-align: center;
+}    
+.top-style2-right .top-right-menu:before {
+    display: none;
+} 
+.top-style2-right .top-right-menu li {
+    float: none;
+    padding-right: 0px;
+    margin: 0 5px;
+}    
+.top-style2-right .topbar-social-links {
+    display: block;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+}    
+.top-style2-right .topbar-social-links li {
+    float: none;
+    padding-right: 0;
+    margin: 0 13px;
+}    
+   
+/*** 
+=============================================
+    Main Header Header Style2 style
+=============================================
+***/     
+.header-style2 .inner-container {
+    position: relative;
+    padding: 0 10px;
+}    
+.logo-box-style2 {
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 10px;
+    margin: 22px 0 23px;
+    z-index: 33;
+}
+.logo-box-style2 a img{
+    width: 70%;
+}    
+ 
+.mainmenu-right.style2 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    margin: 0;
+}
+.mainmenu-right.style2 .outer-search-box {
+    padding: 15px 0;
+    margin-right: 10px;
+} 
+.mainmenu-right.style2 .cart-box {
+    float: left;
+    margin: 15px 0;
+}    
+.mainmenu-right.style2 .button {
+    display: none;
+}
+
+/*** 
+=============================================
+    About Style2 Area style
+=============================================
+***/     
+.about-style2-image-box {
+    margin-top: 170px;
+}    
+.about-style2-image-box .pattern {
+    top: -110px;
+    left: 0;
+    right: 0;
+    bottom: -110px;
+    width: 100%;
+    height: auto;
+}    
+.about-style2-text .authorised-info .signature, 
+.about-style2-text .authorised-info .name {
+    display: block;
+}        
+.about-style2-text .authorised-info .name {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 20px;
+} 
+.about-style2-image-box .overlay-box {
+    left: 40px;
+    bottom: 30px;
+    right: 40px;
+    max-width: 300px;
+    margin: 0 auto;
+}       
+.about-style2-image-box .overlay-box .title {
+    float: none;
+    padding: 23px 0 20px;
+    padding-left: 20px;
+}    
+.about-style2-image-box .overlay-box .button {
+    float: none;
+}
+.about-style2-image-box .overlay-box .button a span:before {
+    margin: 0 auto;
+}    
+    
+/*** 
+=============================================
+    Working Style2 Area style
+=============================================
+***/      
+.single-working-box-style2 {
+    width: 100%;
+    margin-bottom: 60px;
+}       
+.working-style-bottom {
+    padding-top: 24px;
+}    
+
+/*** 
+=============================================
+    Slogan Style2 Area style
+=============================================
+***/      
+.slogan-style2-area .inner-content .button a.call-us {
+    margin-bottom: 20px;
+}    
+.slogan-style2-area .inner-content .title.float-bob{
+    animation: none;
+}    
+    
+/*** 
+=============================================
+    Why Choose Area style
+=============================================
+***/
+.why-choose-title {
+    padding-bottom: 60px;
+    max-width: 100%;
+    width: 100%;
+}    
+.why-choose-content {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+.why-choose-content .single-box {
+    padding: 50px 40px 42px;
+    padding-right: 30px;
+    width: 100%;
+}   
+    
+/*** 
+=============================================
+    Working Process Style2 Area style
+=============================================
+***/      
+.working-process-style2-area .sec-title {
+    padding-bottom: 125px;
+}    
+.working-process-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: -95px;
+}    
+.single-working-process-style2 {
+    max-width: 330px;
+    min-width: 330px;
+} 
+.single-working-process-style2 .top-box:after {
+    width: 330px;
+}    
+    
+/*** 
+=============================================
+    Contact Details Area style
+=============================================
+***/     
+.content-info-box {
+    min-height: 650px;
+    margin-right: 5px;
+}    
+.contact-details-form-box {
+    padding: 65px 20px 110px;
+    width: 100%;
+}    
+    
+/*** 
+=============================================
+    Brand Area Style2 style
+=============================================
+***/ 
+.brand-area.style2 {
+    padding-top: 110px;
+    padding-bottom: 80px;
+}    
+.brand-area.style2 .sec-title {
+    padding-bottom: 50px;
+}    
+.single-brand-item.style2 {
+    max-width: 290px;
+    float: none;
+    margin: 0 auto 30px;
+}
+.single-brand-item.style2:last-child {
+    margin-right: auto;
+}    
+    
+/*** 
+=============================================
+    Instagram Area Style
+=============================================
+***/   
+.instagram-title {
+    margin-right: 0;
+    padding: 43px 0;
+    text-align: center;
+} 
+.instagram-title .pattern-bg {
+    display: none;
+}     
+.instagram-items {
+    margin-right: 0;
+}    
+.instagram-items li {
+    width: 270px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+} 
+    
+/*** 
+=============================================
+    Footer Area Style2 Style
+=============================================
+***/
+.single-footer-widget.pdtop50-s2{
+    padding-top: 50px;
+} 
+.single-footer-widget.marbtm50-s2{
+    margin-bottom: 50px;
+}
+.single-footer-widget .usefull-links ul {
+    float: none !important;
+    display: block;
+}    
+.single-footer-widget .usefull-links ul.borders-left {
+    margin-left: 0;
+    padding-left: 0;
+    float: none !important;
+    display: block;
+}    
+.single-footer-widget .usefull-links ul.borders-left:before {
+    display: none;
+}    
+.single-footer-widget .subscribe-form {
+    max-width: 450px;
+    width: 100%;
+}  
+
+    
+    
+    
+ 
+/*** 
+=============================================
+    Topbar Style3 Area style
+=============================================
+***/      
+.topbar-style3-content {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+
+/*** 
+=============================================
+    Header Style3 Area style
+=============================================
+***/      
+.logo-box-style3 {
+    margin: 30px 0;
+    float: none !important;
+    text-align: center;
+}    
+.header-contact-info.style2 {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    float: none !important;
+    width: 265px;
+}    
+.header-call-button {
+    width: 270px;
+    padding: 30px 30px 30px;
+    float: none !important;
+    margin: 25px auto 0;
+}    
+    
+/*** 
+=============================================
+    Mainmenu Style3 Area style
+=============================================
+***/      
+.mainmenu-right.style3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 33;
+    float: none !important;
+    display: inline-block;
+    right: auto;
+    margin: 5px 0;
+} 
+.mainmenu-right.style3 .button a {
+    width: 230px;
+}    
+ 
+/*** 
+=============================================
+    Featured Area style
+=============================================
+***/  
+.about-style3-content .button a.black {
+    margin-top: 20px;
+}       
+.about-style3-bg.banner-animate {
+    animation: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+    
+/*** 
+=============================================
+    Latest Projects Area style
+=============================================
+***/ 
+.latest-projects-area .sec-title {
+    padding-bottom: 115px;
+}    
+.project-carousel-v3.owl-carousel .owl-nav {
+    position: absolute;
+    top: -90px;
+    left: 0;
+    right: 0;
+    max-width: 120px;
+    margin: 0 auto;
+}    
+    
+/*** 
+=============================================
+    Team Area style
+=============================================
+***/ 
+.team-area .sec-title{
+    display: block;
+    float: none !important;
+    padding-bottom: 24px;
+}    
+.view-all-member {
+    margin-top: 0px;
+    float: none !important;
+    padding-bottom: 42px;
+}    
+    
+/*** 
+=============================================
+    Brand Style3 style
+=============================================
+***/      
+.single-brand-item.style3 {
+    max-width: 170px;
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin: 0 auto;
+}
+.single-brand-item.style3:last-child {
+    margin-right: auto;
+}    
+    
+/*** 
+=============================================
+    Brand Style3 style
+=============================================
+***/ 
+.latest-blog-area.style3 .sec-title {
+    display: block;
+    float: none !important;
+    padding-bottom: 24px;
+}    
+.more-blog-button {
+    margin-top: 0px;
+    float: none !important;
+    padding-bottom: 42px;
+}    
+    
+/*** 
+=============================================
+    Footer Area Style3 Style
+=============================================
+***/    
+.single-footer-widget.marbtm50-s3 {
+    margin-bottom: 50px;
+}    
+.single-footer-widget .usefull-links ul {
+    float: none !important;
+    display: block;
+}        
+.single-footer-widget .usefull-links ul.marleft30 {
+    margin-left: 0px;
+}    
+.single-footer-widget.pdtop50-s3 {
+    padding-top: 50px;
+}    
+.footer-bottom-area .copyright-text {
+    text-align: center;
+    margin: 0;
+}    
+    
+
+    
+/*** 
+=============================================
+    Company Overview Area Style
+=============================================
+***/ 
+.company-overview-area {
+    padding: 105px 0 86px;
+}     
+.intro-box {
+    position: relative;
+    display: block;
+    margin-bottom: 42px;
+} 
+.intro-box .text {
+    max-width: 770px;
+    width: 100%;
+    margin-top: 24px;
+} 
+    
+.single-history-content {
+    box-shadow: none;
+}    
+.single-history-content .img-box {
+    width: 100%;
+    float: none;
+}    
+.single-history-content .img-box .inner {
+    padding-right: 0;
+}    
+.single-history-content .text-box {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    min-height: auto;
+}    
+.single-history-content .text-box .inner {
+    position: relative;
+    display: block;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+}  
+.single-history-content .text-box .inner .title h3 br{
+    display: none;
+}     
+.single-fact-counter {
+    max-width: 270px;
+    margin: 0 auto 30px;
+}  
+   
+/*** 
+=============================================
+    Footer Area Style4 Style
+=============================================
+***/ 
+.footer-area.style4 {
+    padding: 110px 0 100px;
+} 
+.single-footer-widget.marbtm50-s4 {
+    margin-bottom: 50px;
+}    
+.single-footer-widget.pdtop50-s4 {
+    padding-top: 50px;
+}  
+    
+/*** 
+=============================================
+    Footer Contact Info Area Style
+=============================================
+***/ 
+.footer-contact-info-area {
+    margin: 0;
+    padding: 30px 0 20px;
+}    
+li .single-footer-contact-info {
+    display: block;
+    float: none;
+    max-width: 300px;
+    width: 100%;
+    border-right: none;
+    overflow: hidden;
+    margin: 0 auto;
+}    
+li .single-footer-contact-info .inner {
+    position: relative;
+    display: block;
+    padding: 15px 0px 15px;
+}    
+    
+/*** 
+=============================================
+    Footer Bottom Area Style3 style
+=============================================
+***/       
+.footer-bottom-area.style3 {
+    padding: 29px 0 28px;
+}    
+ 
+/*** 
+=============================================
+    Faq Area style
+=============================================
+***/      
+.faq-content-box {
+    padding: 60px 20px 40px;
+}    
+.accordion-box .accordion .accord-btn h4 {
+    font-size: 16px;
+    line-height: 22px;
+}    
+.accordion-box .accordion .accord-btn {
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}    
+.accordion-box .accordion .accord-btn::after {
+    right: 20px;
+} 
+
+/*** 
+=============================================
+    Coming Soon Content Area style
+=============================================
+***/     
+.coming-soon-content .title {
+    font-size: 50px;
+    line-height: 60px;
+}       
+    
+/*** 
+=============================================
+    Timer Area style
+=============================================
+***/ 
+.timer-box {
+    padding: 74px 15px 72px;
+    margin-top: -320px;
+}    
+.countdown-timer li {
+    margin: 0 3px;
+}    
+.timer-box .subscribe-box .subscribe-form button {
+    width: 130px;
+}   
+.timer-box .subscribe-box .subscribe-form input[type="email"] {
+    padding: 0 10px;
+    padding-right: 135px;
+}    
+    
+/*** 
+=============================================
+    Error Page Area style
+=============================================
+***/     
+.error-content .title {
+    font-size: 110px;
+    line-height: 100px;
+    margin: 13px 0 14px;
+}    
+    
+/*** 
+=============================================
+    Services Style2 Service Page Style
+=============================================
+***/      
+.services-style2-service-page .sec-title {
+    padding-bottom: 13px;
+}   
+.services-style2-service-page .text {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}    
+.single-service-style2 .text-holder .inner .text {
+    padding: 0 20px 32px;
+}    
+  
+/*** 
+=============================================
+    Testimonial Style3 Service Page Style
+=============================================
+***/ 
+.testimonial-style3-service-page .sec-title {
+    padding-bottom: 115px;
+}    
+.testimonial-style3-service-page .owl-carousel .owl-nav {
+    top: -95px;
+    left: 0;
+    right: auto;
+}   
+.testimonial-style3-service-page .owl-carousel .owl-nav .owl-prev {
+    left: 0px;
+    right: 0;
+}    
+.testimonial-style3-service-page .owl-carousel .owl-nav .owl-next {
+    margin-left: 10px;
+    right: auto;
+    left: 60px;
+}    
+    
+/*** 
+=============================================
+    Single Service Area Style
+=============================================
+***/      
+.single-service-sidebar:before {
+    display: none;
+}    
+.single-service-top {
+    margin-top: 50px;
+}    
+.single-advantages-box {
+    margin-bottom: 30px;
+}    
+.how-work-box {
+    padding-top: 50px;
+}    
+.how-work-box .how-works-content {
+    padding-top: 50px;
+}    
+.sidebar-contact-box .inner-content {
+    padding: 48px 15px 50px;
+}    
+.additional-information-box .additional-info-content-box {
+    padding: 40px 15px 20px;
+}    
+    
+/*** 
+=============================================
+    Main Project Area Style5 Style
+=============================================
+***/
+.main-project-area.style5:before {
+    display: none;
+}        
+.single-project-style8 .overlay-content .inner-content .title-box h3 {
+    font-size: 16px;
+}    
+    
+/*** 
+=============================================
+    Main Project Area Style6 Style
+=============================================
+***/    
+.main-project-area.style6:before {
+    display: none;
+}    
+    
+/*** 
+=============================================
+    Project Description Area style
+=============================================
+***/      
+.project-description-image-box img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}    
+.project-description-content {
+    position: relative;
+    display: block;
+    z-index: 3;
+    padding-top: 50px;
+    padding-left: 0px;
+}    
+    
+/*** 
+=============================================
+    Project Info Area style
+=============================================
+***/
+.project-info-area {
+    padding-top: 44px;
+    padding-bottom: 110px;
+}    
+.project-info-area .pattern-bg {
+    top: auto;
+    right: 0;
+    bottom: 0;
+}    
+.project-info-content {
+    margin: -6px auto 30px;
+}    
+.project-info-image-box img {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+}    
+
+/*** 
+=============================================
+    Blog Area Blog Large Area style
+=============================================
+***/
+#blog-area.blog-large-area {
+    padding-bottom: 60px;
+}    
+.single-blog-post.style4 {
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-bottom: 50px;
+}  
+.single-blog-post.style4:before {
+    top: -300px;
+    left: 0;
+    bottom: 0;
+} 
+.single-blog-post.style4 .text-holder .blog-title {
+    font-size: 24px;
+    line-height: 32px;
+}    
+#blog-area .sidebar-wrapper {
+    position: relative;
+    display: block;
+    max-width: 300px;
+    margin-left: 0px;
+    z-index: 99;
+    padding-top: 100px;
+}    
+ 
+/*** 
+=============================================
+    Breadcrumb area style
+=============================================
+***/ 
+.breadcrumb-area .inner-content-box .title-s2 h1 {
+    font-size: 40px;
+    line-height: 52px;
+}    
+    
+/*** 
+=============================================
+    Blog Area Blog Single Area style
+=============================================
+***/ 
+#blog-area.blog-single-area {
+    position: relative;
+    display: block;
+    padding: 0 0 60px;
+}    
+.blog-single-area .blog-post {
+    margin-right: 0px;
+}    
+.blog-single-image-with-text-box .image-box li {
+    margin-right: 30px;
+    max-width: 329px;
+} 
+.blog-prev-next-option .single {
+    max-width: 330px;
+    width: 100%;
+}    
+
+/*** 
+=============================================
+    Single Post Info Area style
+=============================================
+***/     
+.single-post-info-area {
+    padding: 104px 0 99px;
+}    
+.single-post-info-content .blog-title {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 22px 0 0;
+}    
+       
+.blog-single-image-with-text-box .image-box li {
+    margin-right: 0;
+    max-width: 100%;
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+}   
+.blog-single-image-with-text-box .image-box li:last-child{
+    margin-bottom: 0;
+}    
+.tag-with-social-links-box .tag-box {
+    float: none !important;
+    overflow: hidden;
+}
+.tag-with-social-links-box .social-links-box {
+    float: none !important;
+    overflow: hidden;
+    margin-top: 5px;
+}    
+.blog-prev-next-option .single {
+    max-width: 300px;
+    width: 100%;
+    float: none !important;
+    margin: 0 auto;
+}    
+.blog-prev-next-option .single.prev{
+    margin-bottom: 30px;
+}    
+
+.author-box-holder {
+    padding: 45px 30px 40px;
+}    
+.author-box-holder .inner-box .img-box, 
+.author-box-holder .inner-box .text {
+    display: block;
+}    
+.author-box-holder .inner-box .text {
+    padding-left: 0px;
+    margin-top: 20px;
+}  
+.blog-single-area .inner-comment-box .single-comment-outer-box {
+    padding: 35px 30px 32px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box {
+    padding-left: 0px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .img-box {
+    position: static;
+    width: 80px;
+    height: 80px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .text-box {
+    margin-top: 20px;
+    margin-left: 0px;
+}    
+.blog-single-area .inner-comment-box .single-comment-outer-box.mar-left {
+    margin-left: 30px;
+}    
+.author-quote-box {
+    padding: 33px 25px 33px;
+}    
+    
+/*** 
+=============================================
+    Main Shop Area style
+=============================================
+***/        
+.shop-sidebar-wrapper {
+    padding-top: 100px;   
+}     
+.showing-result-shorting {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 50px;
+} 
+.showing-result-shorting .showing {
+    margin: 14px 0 0;
+}    
+    
+/*** 
+=============================================
+    Single Shop Area style
+=============================================
+***/
+.single-product-image-holder {
+    margin-right: 0;
+}       
+.single-shop-content .content-box {
+    margin-top: 40px;
+}   
+    
+/*** 
+=============================================
+    Cart Area style
+=============================================
+***/
+.cart-middle .apply-coupon {
+    padding-left: 0;
+}       
+.cart-middle .apply-coupon input[type="text"] {
+    margin: 0 0 20px;
+    position: static;
+    width: 225px;
+}    
+.cart-area .cart-bottom .calculate-shipping {
+    padding-bottom: 60px;
+}    
+.cart-middle .update-cart {
+    float: left !important;
+    margin: 20px 0 0;
+}        
+.cart-bottom .calculate-shipping input[type="text"] {
+    margin-bottom: 25px;
+}      
+    
+/*** 
+=============================================
+    Checkout Area style
+=============================================
+***/    
+.checkout-area .form.shipping-info {
+    padding-top: 60px;
+}    
+.checkout-area .cart-total {
+    padding-top: 60px;
+}   
+.checkout-area .exisitng-customer h5 a {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: 7px;
+}
+.checkout-area .coupon h5 a {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: 7px;
+}       
+    
+/*** 
+=============================================
+    Login Register Area style
+=============================================
+***/  
+.login-register-area .form a.forgot-password {
+    float: left;
+    margin: 35px 0 0;
+}  
+.login-register-area .form.register {
+    padding-top: 60px;
+}    
+.login-register-area .form .social-icon {
+    float: left;
+    margin-right: 0;
+    margin-top: 30px;
+}    
+.login-register-area .form .social-icon span {
+    left: 0;
+    position: relative;
+} 
+.login-register-area .form .social-icon .login-with {
+    position: static;
+}    
+.login-register-area .form h6 {
+    margin: 20px 0 0;
+}
+.login-register-area .form .right {
+    display: block;
+    overflow: hidden;
+    margin-left: 0px;
+}
+    
+/*** 
+=============================================
+    Contact Address Area style
+=============================================
+***/
+.contact-address-area {
+    padding-bottom: 27px;
+}    
+.single-contact-address-box {
+    margin-top: -115px;
+    margin-bottom: 155px;
+}    
+.contact-address-area .bottom-text {
+    padding-top: 0;
+    margin-top: -100px;
+}    
+.contact-form-image-box {
+    position: relative;
+    z-index: 1;
+    top: -110px;
+    right: 0;
+}    
+    
+/*** 
+=============================================
+    Contact Info Area style
+=============================================
+***/    
+.contact-info-area {
+    padding: 110px 0 0px;
+}       
+
+/*** 
+=============================================
+    Job Career Brochures Area style
+=============================================
+***/      
+.job-career-brochures-box .overlay-content .innner .box h1 {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 11px;
+} 
+.job-career-brochures-box .overlay-content .innner .box p {
+    margin: 0 0 12px;
+}
+.job-career-brochures-box .overlay-content .innner .box a {
+    padding: 0 30px 0;
+    line-height: 50px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media (min-width: 992px){
+    
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.navbar-toggle {
+    display: none !important;
+} 
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 991px){ 
+    
+.mainmenu-area .inner-content{
+    position: relative;
+    display: block;
+}         
+.main-menu {
+    display: block;
+    float: none;
+    padding-top: 17px;
+    padding-bottom: 0px;
+    z-index: 5;
+    width: 100%;
+}
+.main-menu .navigation li {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    float: none;
+}   
+.main-menu .collapse {
+    border: none;
+    border-radius: 0px !important;
+    float: none;
+    margin: 0;
+    height: auto;
+    overflow: auto;
+    padding: 0;
+    width: 100%;
+}    
+.main-menu .collapse.in, 
+.main-menu .collapsing {
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    border-top: none;
+}    
+.main-menu .navbar-header {
+    position: relative;
+    float: none;
+    display: block;
+    text-align: right;
+    width: 100%;
+    padding: 63px 0 0;
+    right: 0px;
+    z-index: 12;
+}    
+.main-menu .navbar-header .navbar-toggle {
+    background: #000100;
+    border: 1px dashed #000100;
+    display: inline-block;
+    border-radius: 3px;
+    float: none;
+    margin: 0;
+    z-index: 7;
+    width: 50px;
+    height: 47px;
+    cursor: pointer;
+    padding: 0 9px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar {
+    display: block;
+    background: #e7e7e7;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 6px;
+}     
+.main-menu .navbar-collapse > .navigation {
+    float: none !important;
+    width: 100% !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}   
+.main-menu .navbar-collapse .navigation > li{
+    display: block;
+    margin: 0px !important;
+    padding: 0;
+    float: none !important;
+    width:100%;
+} 
+.main-menu .navbar-collapse > .navigation > li > ul,
+.main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+    position: relative;
+    float: none;
+    visibility: visible;
+    opacity: 1;
+    display: none;
+    margin: 0px;
+    padding: 0;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    width: 100%;
+    background: none;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: none !important;
+}   
+.main-menu .navbar-collapse .navigation li,
+.main-menu .navbar-collapse .navigation li ul li,
+.main-menu .navbar-collapse .navigation li ul li ul li{
+    background: #27282c;
+    border-top: 1px solid #151618;
+    opacity:1 !important;
+    top:0px !important;
+    left:0px !important;
+    visibility: visible !important;
+}  
+.main-menu .navbar-collapse .navigation li:last-child,
+.main-menu .navbar-collapse .navigation li ul li:last-child,
+.main-menu .navbar-collapse .navigation li ul li ul li:last-child{
+    border-bottom: 1px solid #151618;         
+}
+    
+.main-menu .navbar-collapse .navigation li ul li{
+    border-bottom: 0px solid #151618 !important;
+} 
+.main-menu .navbar-collapse .navigation li ul li ul li{
+    border-bottom: 0px solid #151618 !important;
+}
+
+    
+.main-menu .navbar-collapse .navigation li a {
+    padding: 10px 10px !important;
+    line-height: 22px;
+    color: #f1f1f1;
+    text-align: left; 
+}
+.main-menu .navbar-collapse .navigation li ul li a {
+    padding: 10px 10px !important;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    border: none !important;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+} 
+.main-menu .navbar-collapse .navigation li a:hover,
+.main-menu .navbar-collapse .navigation li a:active,
+.main-menu .navbar-collapse .navigation li a:focus{
+    
+} 
+.main-menu .navbar-collapse > .navigation > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li.current > a{
+    color: #ffffff !important;
+    background: #e9212e;
+}        
+.main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
+    display:block;
+}  
+.main-menu .navbar-collapse .navigation > li > ul{
+    border: none;
+    padding: 0;
+    margin: 0;
+} 
+
+  
+  
+    
+.main-menu .navigation > li > ul > li > a:after {
+    display: none;
+}    
+.main-menu.style2 .navigation > li.dropdown > a:after {
+    display: none;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {     
+.main-slider.style2 .tparrows {
+    left: 30% !important;
+}    
+.main-slider.style2 .tp-rightarrow {
+    left: 38% !important;
+}
+    
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1199px) {     
+.main-slider.style2 .tparrows {
+    left: 25% !important;
+}    
+.main-slider.style2 .tp-rightarrow {
+    left: 35% !important;
+}
+    
+}
+
+@media only screen and (max-width: 799px){  
+    
+.main-slider.style2 .tparrows{
+    display: none !important;
+}    
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {   
+.main-slider .slide-content.left-slide{ 
+    margin-left: 50px; 
+}
+
+    
+    
+.main-slider.style2 .slide-content.left-slide{ 
+    margin-left: 0px; 
+}    
+
+    
+    
+    
+ 
+}
+
+
+@media only screen and (max-width: 1199px){  
+.main-slider .slide-content.left-slide{ 
+    margin-left: 50px; 
+} 
+ 
+    
+    
+.main-slider.style2 .slide-content .big-title{
+	font-size: 40px;
+	line-height: 1.2em;
+}
+.main-slider.style2 .slide-content .text{
+	font-size: 16px;
+	line-height: 1.6em;
+}    
+    
+    
+    
+  
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1039px){
+/*** 
+=============================================
+    Highlights Area style
+=============================================
+***/       
+.highlights-area {
+    margin-top: 0;
+    padding-top: 110px;
+}
+/*** 
+=============================================
+    Featured Area style
+=============================================
+***/      
+.featured-area {
+    margin-top: 0px;
+    padding-top: 60px;
+    background: #ffffff;
+}    
+    
+.main-slider .tparrows {
+    top: 50% !important;
+}       
+.main-slider .slide-content.left-slide{ 
+    margin-left: 50px; 
+}      
+.main-slider .slide-content .big-title{
+	font-size: 50px;
+	line-height: 1.1em;
+}  
+
+ 
+    
+.main-slider.style3 .slide-content .big-title{
+	font-size: 50px;
+	line-height: 1.2em;
+}
+.main-slider.style3 .slide-content .text{
+	font-size: 16px;
+	line-height: 1.6em;
+}    
+    
+    
+    
+    
+    
+    
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 777px){
+.main-slider .slide-content .big-title{
+	font-size: 40px;
+	line-height: 1.1em;
+} 
+.main-slider .slide-content .text{
+	font-size: 16px;
+	line-height: 1.6em;
+	font-weight: 400;
+}    
+.main-slider .slide-content .text br{
+    display: none;
+} 
+.main-slider .slide-content .btn-box a.project-view-button {
+    display: block;
+    margin-left: 0;
+    padding: 0;
+    line-height: 50px;
+}    
+.main-slider .slide-content .btn-box a.project-view-button:before {
+    display: none;
+}  
+    
+    
+    
+    
+.main-slider.style2 .slide-content .big-title{
+	font-size: 30px;
+	line-height: 1.2em;
+}     
+.main-slider.style2 .slide-content .text{
+	font-size: 15px;
+	line-height: 1.6em;
+}
+    
+    
+ 
+.main-slider.style3 .slide-content .big-title{
+	font-size: 30px;
+	line-height: 1.2em;
+}
+.main-slider.style3 .slide-content .text{
+	font-size: 14px;
+	line-height: 1.6em;
+}       
+    
+    
+ 
+ 
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 599px) {
+/*** 
+=============================================
+    Rev slider wrapper style
+=============================================
+***/
+.main-slider .slide-content.left-slide{ 
+    margin-left: 0px; 
+}     
+.main-slider .slide-content .big-title{
+	font-size: 30px;
+	line-height: 1.0em;
+}  
+.main-slider .slide-content .text{
+	font-size: 14px;
+	line-height: 1.4em;
+}
+.main-slider .slide-content .btn-box a {
+    line-height: 50px;
+}
+  
+ 
+    
+.main-slider.style2 .slide-content.left-slide{ 
+    margin-left: 0px; 
+}        
+.main-slider.style2 .slide-content .big-title{
+	font-size: 20px;
+	line-height: 1.3em;
+}     
+.main-slider.style2 .slide-content .text{
+	font-size: 14px;
+	line-height: 1.6em;
+}    
+
+
+    
+.main-slider.style3 .slide-content .big-title{
+	font-size: 20px;
+	line-height: 1.2em;
+    font-weight: 600;
+}
+.main-slider.style3 .slide-content .text{
+	font-size: 14px;
+	line-height: 1.6em;
+}       
+    
+    
+    
+  
+    
+}
+
+
+
+@media only screen and (max-width: 479px) {       
+
+.main-slider .slide-content.left-slide{ 
+    margin-left: 0px; 
+}    
+.main-slider .slide-content .big-title{
+	font-size: 25px;
+	line-height: 1.3em;
+    font-weight: 500;
+}         
+.main-slider .slide-content .btn-box a{
+    line-height: 50px;
+    padding: 0 20px 0;
+} 
+  
+    
+
+.main-slider.style2 .slide-content .big-title{
+	font-size: 20px;
+	line-height: 1.3em;
+}     
+.main-slider.style2 .slide-content .text{
+	font-size: 14px;
+	line-height: 1.4em;
+}    
+.main-slider.style2 .slide-content .btn-box a.slide-style2-button {
+    margin-left: 5px;
+    line-height: 70px;
+}    
+.main-slider.style2 .slide-content .btn-box a.slide-style2-button:before {
+    display: none;
+}
+    
+    
+    
+.main-slider.style3 .slide-content .big-title{
+	font-size: 20px;
+	line-height: 1.2em;
+    font-weight: 500;
+}
+.main-slider.style3 .slide-content .text{
+	font-size: 14px;
+	line-height: 1.6em;
+}       
+    
+    
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 400px) {   
+
+.main-slider .slide-content .big-title{
+	font-size: 20px;
+	line-height: 1.3em;
+    font-weight: 500;
+} 
+    
+    
+    
+    
+}
+

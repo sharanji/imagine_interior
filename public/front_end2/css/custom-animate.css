@@ -1,0 +1,190 @@
+@keyframes rotateme {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotateme {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to { 
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotateme {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to { 
+        -o-transform: rotate(360deg);
+    }
+}
+
+.rotate-me,
+.android-section .image-column .inner-column .circle-image{
+    animation-name: rotateme; 
+    animation-duration: 24s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: rotateme; 
+    -webkit-animation-duration: 24s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: rotateme; 
+    -moz-animation-duration: 24s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: rotateme; 
+    -ms-animation-duration: 24s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: rotateme; 
+    -o-animation-duration: 24s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+
+
+@-webkit-keyframes float-bob {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes float-bob {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+
+
+@-webkit-keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.float-bob,
+.footer .overlay img,
+.banner-section .mouse-btn-down,
+.banner-section .image-column .image{
+    animation-name: float-bob; 
+    animation-duration: 7s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: float-bob; 
+    -webkit-animation-duration: 7s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: float-bob; 
+    -moz-animation-duration: 7s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: float-bob; 
+    -ms-animation-duration: 7s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: float-bob; 
+    -o-animation-duration: 7s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.zoom-fade,
+.banner .parallax-container div img,
+.fullwidth-video-section .play-link .icon-box{
+    animation-name: zoom-fade; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: zoom-fade; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: zoom-fade; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: zoom-fade; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: zoom-fade; 
+    -o-animation-duration: 5s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}

@@ -39,7 +39,7 @@
 
     // website
     Route::get('/', function () {
-        return view('front_end.home');
+        return view('front_end2.home');
     })->name('home');
 
     Route::get('/index.html', function () {
@@ -47,37 +47,38 @@
     });
 
     Route::get('/aboutus{any}', function () {
-        return view('front_end.aboutus');
+        return view('front_end2.aboutus');
     });
 
     Route::get('/history{any}', function () {
-        return view('front_end.history');
+        return view('front_end2.history');
     });
 
     Route::get('/contact{any}', function () {
-        return view('front_end.contactus');
+        return view('front_end2.contactus');
     });
 
     Route::get('/view-360{any}', function () {
-        return view('front_end.view360');
+        return view('front_end2.view360');
     });
 
     Route::get('/blog-detail{any}', function () {
-        return view('front_end.blogdetail');
+        return view('front_end2.blogdetail');
     });
 
     Route::get('/testimonials{any}', function () {
-        return view('front_end.testimonial');
+        return view('front_end2.testimonial');
     });
 
     Route::get('/tariff{any}', function () {
         $pageData['tariffs'] = DB::table('tariff')->get();
-        return view('front_end.tariff',$pageData);
+        return view('front_end2.tariff',$pageData);
     });
 
     Route::get('/gallery{any}', function () {
         $pageData['gallery_lables'] = DB::table('gallery_lables')
 						->orderby("gallery_lables.label_name","DESC")->get();
 
-        return view('front_end.gallery',$pageData);
+        return view('front_end2.gallery',$pageData);
     });
+ 
