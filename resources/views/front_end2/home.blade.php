@@ -27,8 +27,8 @@
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['25','90','100','85']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content left-slide">
                             <div class="btn-box">
-                                <a class="btn-one" href="#">About Company<span class="flaticon-next"></span></a>
-                                <a class="project-view-button" href="#">Project 360<span style="font-size: 20px;">&deg</span>View</a>
+                                <a class="btn-one" href="{{url('aboutus.html')}}">About Company<span class="flaticon-next"></span></a>
+                                <a class="project-view-button" href="{{url('view-360.html')}}">Project 360<span style="font-size: 20px;">&deg</span>View</a>
                             </div>
                         </div>
                     </div>
@@ -56,8 +56,8 @@
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['700','800','700','500']" data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['25','90','100','85']" data-x="['right','right','right','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content left-slide">
                             <div class="btn-box">
-                                <a class="btn-one" href="#">Our Services<span class="flaticon-next"></span></a>
-                                <a class="project-view-button" href="#">Project 360<span style="font-size: 20px;">&deg</span>View</a>
+                                <a class="btn-one" href="{{url('services.html')}}">Our Services<span class="flaticon-next"></span></a>
+                                <a class="project-view-button" href="{{url('view-360.html')}}">Project 360<span style="font-size: 20px;">&deg</span>View</a>
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,8 @@
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['800','800','700','500']" data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['25','90','100','85']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content left-slide">
                             <div class="btn-box">
-                                <a class="btn-one" href="#">About Company<span class="flaticon-next"></span></a>
-                                <a class="project-view-button" href="#">Project 360<span style="font-size: 20px;">&deg</span>View</a>
+                                <a class="btn-one" href="{{url('aboutus.html')}}">About Company<span class="flaticon-next"></span></a>
+                                <a class="project-view-button" href="{{url('view-360.html')}}">Project 360<span style="font-size: 20px;">&deg</span>View</a>
                             </div>
                         </div>
                     </div>
@@ -623,6 +623,27 @@
 </section>
 <!--End Recently Project Area-->
 
+<section class="slogan-style2-area" style="background-image:url({{asset("front_end2/images/parallax-background/slogan-bg.jpg")}});">
+    <div class="icon-holder">
+        <span class="flaticon-car"></span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="inner-content">
+                    <div class="title">
+                        <h1>Creating lasting impressions through<br> <span>interior design.</span></h1>
+                    </div>
+                    <div class="button">
+                        <a class="btn-one call-us" href="#"><i class="icon-music"></i>+91 7397 776 102</a>
+                        <a class="btn-one" href="#">Maintenance Guide<span class="flaticon-next"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--Start Working Process Area-->
 <section class="working-process-area">
     <div class="container">
@@ -697,88 +718,75 @@
 </section>
 <!--End slogan area-->
 
-<!--Start Testimonial Area-->
-<section class="testimonial-area">
+{{-- qoute --}}
+<section class="why-choose-area" id="qoute" style="background-image:url({{asset("front_end2/images/parallax-background/why-choose-bg.jpg")}});">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="sec-title float-left">
-                    <p>Testimonials</p>
-                    <div class="title">Our Customer <span>Words</span></div>
-                </div>
-                <div class="more-reviews-button float-right">
-                    <a class="btn-two" href="#">More Reviews<span class="flaticon-next"></span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!--Start Single Testimonial Item-->
-            <div class="col-xl-4 col-lg-4">
-                <div class="single-testimonial-item text-center">
-                    <div class="quote-icon">
-                        <span class="icon-quote1"></span>
+                <div class="why-choose-title float-left">
+                    <div class="sec-title">
+                        <div class="icon"><img src="{{asset("front_end2/images/icon/home-1.png")}}" alt="Awesome Logo"></div>
+                        <div class="title">Why People <br>Choose <span>Crystalo</span></div>
                     </div>
-                    <div class="inner-content">
-                        <div class="client-info">
-                            <h3>Shelly Johnson</h3>
-                            <span>California</span>
-                        </div>
-                        <div class="img-box">
-                            <img src="{{asset("front_end2/images/testimonial/testi-1.png")}}" alt="Awesome Image">
-                        </div>
-                        <div class="text-box">
-                            <p>Your guys were great knowledgeable, well experienced, efficient and neat. A true to work with Crystalo.</p>
-                        </div>
+                    <ul>
+                        <li>Well Considered Design</li>
+                        <li>We Create For You</li>
+                        <li>Leave The Details To Us</li>
+                    </ul>
+                    <div class="button">
+                        <a class="btn-one" href="#">Make an Appointment<span class="flaticon-next"></span></a>
                     </div>
                 </div>
-            </div>
-            <!--End Single Testimonial Item-->
-            <!--Start Single Testimonial Item-->
-            <div class="col-xl-4 col-lg-4">
-                <div class="single-testimonial-item text-center">
-                    <div class="quote-icon">
-                        <span class="icon-quote1"></span>
-                    </div>
-                    <div class="inner-content">
-                        <div class="client-info">
-                            <h3>Cathrine Wagner</h3>
-                            <span>Los Angeles</span>
+                <div class="why-choose-content float-right">
+                    <!--Start Single Box-->
+                    <div class="single-box redbg">
+                        <div class="icon-holder">
+                            <span class="icon-scheme"></span>
                         </div>
-                        <div class="img-box">
-                            <img src="{{asset("front_end2/images/testimonial/testi-2.png")}}" alt="Awesome Image">
-                        </div>
-                        <div class="text-box">
-                            <p>Indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.</p>
+                        <div class="text-holder">
+                            <h3>Experienced Team</h3>
+                            <p>Righteous indignations working beguileds all demoralized that blinded our works.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!--End Single Testimonial Item-->
-            <!--Start Single Testimonial Item-->
-            <div class="col-xl-4 col-lg-4">
-                <div class="single-testimonial-item text-center">
-                    <div class="quote-icon">
-                        <span class="icon-quote1"></span>
-                    </div>
-                    <div class="inner-content">
-                        <div class="client-info">
-                            <h3>Cuthbert Brain</h3>
-                            <span>Newyork City</span>
+                    <!--End Single Box-->
+                    <!--Start Single Box-->
+                    <div class="single-box whitebg">
+                        <div class="icon-holder">
+                            <span class="icon-guarantee-certificate1"></span>
                         </div>
-                        <div class="img-box">
-                            <img src="{{asset("front_end2/images/testimonial/testi-3.png")}}" alt="Awesome Image">
-                        </div>
-                        <div class="text-box">
-                            <p>Same as saying through shrinking from all pain these cases are perfectly simple and easy to distinguish.</p>
+                        <div class="text-holder">
+                            <h3>Guaranteed Works</h3>
+                            <p>Have to be repudiated annoyances accepted The wise man therefore always holds.</p>
                         </div>
                     </div>
+                    <!--End Single Box-->
+                    <!--Start Single Box-->
+                    <div class="single-box whitebg">
+                        <div class="icon-holder">
+                            <span class="icon-hr1"></span>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Free Consultation</h3>
+                            <p>Rejects pleasures to secure other pleasures, endures pains to avoid worse.</p>
+                        </div>
+                    </div>
+                    <!--End Single Box-->
+                    <!--Start Single Box-->
+                    <div class="single-box blackbg">
+                        <div class="icon-holder">
+                            <span class="icon-wallet1"></span>
+                        </div>
+                        <div class="text-holder">
+                            <h3>Reasonable price</h3>
+                            <p>Our power of choice is untrammelled &amp; when nothing prevents our being able.</p>
+                        </div>
+                    </div>
+                    <!--End Single Box-->
                 </div>
             </div>
-            <!--End Single Testimonial Item-->
         </div>
     </div>
 </section>
-<!--End Testimonial Area-->
 
 <!--Start appointment Area-->
 <section class="appointment-area" style="background-image:url({{asset("front_end2/images/resources/appointment-bg.jpg")}});">

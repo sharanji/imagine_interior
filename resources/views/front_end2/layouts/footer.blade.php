@@ -8,8 +8,8 @@
                  <div class="single-footer-widget marbtm50">
                      <div class="contact-info-box">
                          <div class="footer-logo">
-                             <a href="index-2.html">
-                                 <img src="{{asset("front_end2/images/footer/footer-logo.png")}}" alt="Awesome Logo">
+                             <a href="index.html">
+                                 <img width="100" src="{{asset("front_end2/logo.png")}}" alt="Awesome Logo">
                              </a>
                          </div>
                          <ul>
@@ -19,11 +19,11 @@
                              </li>
                              <li>
                                  <h6>Phone</h6>
-                                 <p>+324 123 45 978 & 01<br> <span>Mon - Friday:</span> 9.00am to 6.00pm</p>
+                                 <p>+91 7397 776 102<br> <span>Mon - Friday:</span> 9.00am to 8.00pm</p>
                              </li>
                              <li>
                                  <h6>Email</h6>
-                                 <p>abc@yourdomain.com<br> crystalocareer@gmail.com</p>
+                                 <p>imaginehsr@gmail.com<br> info@imaginedesigner.com</p>
                              </li>
                          </ul>
                      </div>
@@ -124,28 +124,6 @@
                              </div>
                          </div>
                          <!--End Single Item-->
-                         <!--Start Single Item-->
-                         <div class="single-item">
-                             <div class="img-holder">
-                                 <img src="{{asset("front_end2/images/footer/brochures-1.jpg")}}" alt="Awesome Image">
-                             </div>
-                             <div class="title-holder">
-                                 <h3>Our Interior Design<br> Brochure</h3>
-                                 <a class="btn-two" href="#">Download Now<span class="flaticon-next"></span></a>
-                             </div>
-                         </div>
-                         <!--End Single Item-->
-                         <!--Start Single Item-->
-                         <div class="single-item">
-                             <div class="img-holder">
-                                 <img src="{{asset("front_end2/images/footer/brochures-1.jpg")}}" alt="Awesome Image">
-                             </div>
-                             <div class="title-holder">
-                                 <h3>Our Interior Design<br> Brochure</h3>
-                                 <a class="btn-two" href="#">Download Now<span class="flaticon-next"></span></a>
-                             </div>
-                         </div>
-                         <!--End Single Item-->
                      </div>
                  </div>
              </div>
@@ -162,7 +140,7 @@
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                  <div class="footer-bottom-content flex-box-two">
                      <div class="copyright-text">
-                         <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p>
+                         <p>Developed and Maintained by <a href="http://adhiyamaan.ac.in/ace/" target="_blank">Adhiyamaan College of Engineering , Housr</a></p>
                      </div>
                      <div class="footer-social-links float-right">
                          <span>We are On:</span>

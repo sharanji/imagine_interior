@@ -14,6 +14,7 @@
 
     <!-- master stylesheet -->
     <link rel="stylesheet" href="{{asset("front_end2/css/style.css")}}">
+    <link rel="stylesheet" href="{{asset("front_end2/css/imp.css")}}">
     <!-- Responsive stylesheet -->
     <link rel="stylesheet" href="{{asset("front_end2/css/responsive.css")}}">
     <!-- Favicon -->
@@ -67,11 +68,11 @@
     <script src="{{asset("front_end2/js/validation.js")}}"></script>
     <script src="{{asset("front_end2/js/wow.js")}}"></script>
 
-    <!---
+    {{-- <!---
 <script src="{{asset("front_end2/js/gmaps.js")}}"></script>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw"></script>
-<script src="{{asset("front_end2/js/mapapi.js")}}"></script> 
---->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw"></script>
+    <script src="{{asset("front_end2/js/mapapi.js")}}"></script>
+    ---> --}}
     <script src="{{asset("front_end2/js/map-helper.js")}}"></script>
 
     <script src="{{asset("front_end2/assets/language-switcher/jquery.polyglot.language.switcher.js" )}}"></script>
