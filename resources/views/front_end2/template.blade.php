@@ -5,12 +5,12 @@
 <!--   06:37:19 GMT -->
 <head>
     <meta charset="UTF-8">
-    <title>Imagine Interior Designers</title>
-
-    <!-- responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- For IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your interior design solution in Hosur, Tamil Nadu. Offering bespoke interior design services for residential and commercial spaces.">
+    <meta name="keywords" content="interior design, Hosur, Tamil Nadu, residential design, commercial design,best interior desinger,interior designers near me">
+    <meta name="author" content="Imaginedesigners">
+    <title>Interior Design Solutions in Hosur, Tamil Nadu</title>
+    <link rel="canonical" href="https://www.imaginedesigner.com/">
 
     <!-- master stylesheet -->
     <link rel="stylesheet" href="{{asset("front_end2/css/style.css")}}">
