@@ -73,6 +73,17 @@
                 </ul>
             </li>
 
+            <li class="nav-item @if(isset($projects))has-sub open @endif">
+                <a href="#"><i class="feather icon-crosshair"></i><span class="menu-title">Projects</span></a>
+                <ul class="menu-content">
+
+                    <li --class="@if(isset($projects)) active @endif">
+                        <a href="{{url('manage-projects.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Tariff</span></a>
+                    </li>
+
+                </ul>
+            </li>
+
 
 
             <li class="navigation-header">

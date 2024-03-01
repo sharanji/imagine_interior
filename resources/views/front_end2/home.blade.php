@@ -636,7 +636,7 @@
                     </div>
                     <div class="button">
                         <a class="btn-one call-us" href="#"><i class="icon-music"></i>+91 7397 776 102</a>
-                        <a class="btn-one" href="#">Maintenance Guide<span class="flaticon-next"></span></a>
+                        {{-- <a class="btn-one" href="#">Maintenance Guide<span class="flaticon-next"></span></a> --}}
                     </div>
                 </div>
             </div>
@@ -709,7 +709,7 @@
                         <h3>Wanna Work With Our Profesional Team? Make an Appointment.</h3>
                     </div>
                     <div class="button float-right">
-                        <a class="btn-one" href="#">Make an Appointment<span class="flaticon-next"></span></a>
+                        <a class="btn-one" href="#make_appointment">Make an Appointment<span class="flaticon-next"></span></a>
                     </div>
                 </div>
             </div>
@@ -726,7 +726,7 @@
                 <div class="why-choose-title float-left">
                     <div class="sec-title">
                         <div class="icon"><img src="{{asset("front_end2/images/icon/home-1.png")}}" alt="Awesome Logo"></div>
-                        <div class="title">Why People <br>Choose <span>Crystalo</span></div>
+                        <div class="title">Why People <br>Choose <span>Imagine Interiors</span></div>
                     </div>
                     <ul>
                         <li>Well Considered Design</li>
@@ -734,7 +734,7 @@
                         <li>Leave The Details To Us</li>
                     </ul>
                     <div class="button">
-                        <a class="btn-one" href="#">Make an Appointment<span class="flaticon-next"></span></a>
+                        <a class="btn-one" href="#make_appointment">Make an Appointment<span class="flaticon-next"></span></a>
                     </div>
                 </div>
                 <div class="why-choose-content float-right">
@@ -789,7 +789,7 @@
 </section>
 
 <!--Start appointment Area-->
-<section class="appointment-area" style="background-image:url({{asset("front_end2/images/resources/appointment-bg.jpg")}});">
+<section class="appointment-area" id="make_appointment" style="background-image:url({{asset("front_end2/images/resources/appointment-bg.jpg")}});">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6">

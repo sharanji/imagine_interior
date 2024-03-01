@@ -45,7 +45,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="project-single.html"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +247,7 @@
                         <div class="overlay-content">
                             <div class="title">
                                 <span>Modern Design</span>
-                                <h3><a href="project-single.html">Art Family Residence</a></h3>
+                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
                             </div>
                         </div>
                     </div>

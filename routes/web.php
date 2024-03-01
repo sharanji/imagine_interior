@@ -35,6 +35,13 @@
     Route::match(array('GET','POST'),'/manage-tariff.html/{type}/{id}',[TariffController::class,'manageTariff']);
 	// Route::match(array('POST'),'/add-gallery-label',[TariffController::class,'addGalleryLabel'])->name('addTariff');
 
+    // Projects
+    Route::match(array('GET','POST'),'/manage-projects.html',[ProjectsController::class,'manageProjects']);
+    Route::match(array('GET','POST'),'/manage-projects.html/{type}',[ProjectsController::class,'manageProjects']);
+    Route::match(array('GET','POST'),'/manage-projects.html/{type}/{id}',[ProjectsController::class,'manageProjects']);
+    Route::match(array('GET','POST'),'/projects/viewsingle/{id}',[ProjectsController::class,'viewsingle']);
+	// Route::match(array('POST'),'/add-gallery-label',[ProjectsController::class,'addGalleryLabel'])->name('addTariff');
+
 
 
     // website
@@ -94,8 +101,10 @@
         $pageData['portfolio'] = 1;
         return view('front_end2.portfolio',$pageData);
     });
-    Route::get('/portfolio/{projectId}', function () {
+    Route::get('/portfolio/{projectId}', function ($projectId) {
         $pageData['portfolio'] = 1;
+        $pageData['project'] = DB::table('projects')->where('project_id','=',$projectId)->first();
+        $pageData['gallery'] = DB::table('gallery')->where('project_id','=',$projectId)->get();
         return view('front_end2.projectsingle',$pageData);
     });
     

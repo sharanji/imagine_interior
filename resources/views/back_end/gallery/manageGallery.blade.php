@@ -17,14 +17,14 @@
                             <?php
 								if(isset($type) && $type == 'add' || $type == 'edit' || $type == 'view' )
 								{
-									$pageTitle = ucfirst($type)." gallery";
+									$pageTitle = ucfirst($type)."Project gallery";
 								}
 								else
 								{
-									$pageTitle = "Manage gallery";
+									$pageTitle = "Manage Project gallery";
 								}
 							?>
-                            <a href="{{url('manage-gallery.html')}}" title="<?php echo $pageTitle;?>"><?php echo $pageTitle;?></a>
+                            <a href="" title="<?php echo $pageTitle;?>"><?php echo $pageTitle;?></a>
                         </li>
                     </ol>
                 </h2>
@@ -89,8 +89,10 @@
                 </div>
                 <div class="row">
                     @php
-                    $galleryImage = DB::table('gallery')->leftjoin('gallery_lables','gallery_lables.label_id','=','gallery.label_id')->where('label_name','=',$_GET['label'])->get();
-                    // dd($galleryImage);
+                    $galleryImage = DB::table('gallery')->leftjoin('gallery_lables','gallery_lables.label_id','=','gallery.label_id')
+                    ->where('label_name','=',$_GET['label'])
+                    ->where('project_id','=',$_GET['project_id'])->get();
+
                     @endphp
                     @foreach ($galleryImage as $image)
                     <div class="col-3 my-1">

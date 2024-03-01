@@ -29,7 +29,7 @@
                 <div class="single-contact-address-box">
                     <span class="icon-global"></span>
                     <h3>Visit Our Office</h3>
-                    <p>Flat A, 20/7, Reynolds Neck Str, North Helenaville, FV77 8WS</p>
+                    <p>172, TNHB PHASE XV, RAYAKOTTAI ROAD, SRI PILLAIYAR NAGAR, Hosur, 635109</p>
                 </div>
             </div>
             <!--End Single Contact Address Box-->

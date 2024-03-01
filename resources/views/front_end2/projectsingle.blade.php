@@ -2,20 +2,29 @@
 
 @section('content')
 
+<style>
+    .big-image {
+        height: 450px;
+        width: 600px;
+        border-radius: 10px;
+    }
+
+</style>
+
 <section class="breadcrumb-area style2" style="background-image: url({{asset('front_end2/images/resources/breadcrumb-bg-2.jpg')}});">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="inner-content-box clearfix">
                     <div class="title-s2 text-center">
-                        <span>Traditional</span>
-                        <h1>Office Partition Walls</h1>
+                        {{-- <span>Traditional</span> --}}
+                        <h1>{{$project->project_name}}</h1>
                     </div>
                     <div class="breadcrumb-menu float-left">
                         <ul class="clearfix">
                             <li><a href="index-2.html">Home</a></li>
                             <li><a href="project.html">Projects</a></li>
-                            <li class="active">Single Project</li>
+                            <li class="active">{{$project->project_name}}</li>
                         </ul>
                     </div>
                 </div>
@@ -24,7 +33,9 @@
     </div>
 </section>
 <!--End breadcrumb area-->
-
+@php
+$rand = rand(0,count($gallery)-1);
+@endphp
 <!--Start Project Description area-->
 <section class="project-description-area">
     <div class="pattern-bg wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
@@ -34,26 +45,18 @@
         <div class="row">
             <div class="col-xl-5">
                 <div class="project-description-image-box">
-                    <img src="{{asset('front_end2/images/projects/project-single/project-description-1.jpg')}}" alt="Awesome Image">
+                    <img class="big-image" src="{{asset("uploads/gallery_images/".$gallery[$rand]->image_label)}}" alt="Awesome Image">
                 </div>
             </div>
             <div class="col-xl-7">
                 <div class="project-description-content">
                     <div class="sec-title">
                         <p>Description</p>
-                        <div class="title">similique sunt<br> qui officia deserunt</div>
                     </div>
                     <div class="inner-content">
-                        <p>Idea of denouncing pleasures and praising pain was born will give you a com-pleted account system, and expound the actual teachings of the great explorer of the truth, the master builder of human happiness. No one rejects,
-                            dislikes, or avoids pleasure itself, because it is pleasure.</p>
-                        <div class="bottpm-text">
-                            <p>Because those who do not know how pursue, Complete account that all system, expound the actual teachings of the great explorer of the truth,</p>
-                        </div>
-                        <ul>
-                            <li>Nam libero tempore, cum soluta</li>
-                            <li>Est eligendi optio cumque nihil impedit quo</li>
-                            <li>Omnis dolor repellendus temporibus autem </li>
-                        </ul>
+                        @php
+                        echo $project->description;
+                        @endphp
                     </div>
                 </div>
             </div>
@@ -62,6 +65,9 @@
 </section>
 <!--End Project Description area-->
 
+@php
+$rand = rand(0,count($gallery)-1);
+@endphp
 <!--Start Project Info Area-->
 <section class="project-info-area">
     <div class="pattern-bg wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
@@ -82,7 +88,7 @@
                                 </div>
                                 <div class="title">
                                     <h4>Location</h4>
-                                    <span>New York United States</span>
+                                    <span>{{$project->project_location}}</span>
                                 </div>
                             </li>
                             <li>
@@ -91,7 +97,7 @@
                                 </div>
                                 <div class="title">
                                     <h4>Square Meters</h4>
-                                    <span>452,65m<sup>2</sup></span>
+                                    <span>{{$project->area}}m<sup>2</sup></span>
                                 </div>
                             </li>
                             <li>
@@ -100,7 +106,7 @@
                                 </div>
                                 <div class="title">
                                     <h4>Project Year</h4>
-                                    <span>2018</span>
+                                    <span>{{date('Y ',strtotime($project->project_date))}}</span>
                                 </div>
                             </li>
                             <li>
@@ -109,7 +115,7 @@
                                 </div>
                                 <div class="title">
                                     <h4>Price Value</h4>
-                                    <span>$65m</span>
+                                    <span>Rs {{$project->estimate}}</span>
                                 </div>
                             </li>
                             <li>
@@ -118,7 +124,7 @@
                                 </div>
                                 <div class="title">
                                     <h4>Project Head</h4>
-                                    <span>Mr. John Meckency</span>
+                                    <span>{{$project->project_head}}</span>
                                 </div>
                             </li>
                         </ul>
@@ -127,7 +133,7 @@
             </div>
             <div class="col-xl-6">
                 <div class="project-info-image-box">
-                    <img src="{{asset('front_end2/images/projects/project-single/project-info-1.jpg')}}" alt="Awesome Image">
+                    <img src="{{asset("uploads/gallery_images/".$gallery[$rand]->image_label)}}" class="big-image" alt="Awesome Image">
                 </div>
             </div>
         </div>
@@ -135,35 +141,158 @@
 </section>
 <!--End Project Info Area-->
 
-<!--Start Video Image Holder Area-->
-<section class="video-image-holder-area">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="video-holder-box">
+<section class="main-project-area style3">
+    <div class="container">
+        <ul class="project-filter post-filter has-dynamic-filters-counter">
+            <li data-filter=".filter-item" class="active"><span class="filter-text">All Projects<span class="count">8</span></span></li>
+            <li data-filter=".mod"><span class="filter-text">Modern<span class="count">6</span></span></li>
+            <li data-filter=".contem"><span class="filter-text">Contemporary<span class="count">2</span></span></li>
+            <li data-filter=".trad"><span class="filter-text">Traditional<span class="count">4</span></span></li>
+            <li data-filter=".ret"><span class="filter-text">Retreat<span class="count">4</span></span></li>
+        </ul>
+    </div>
+    <div class="container-fluid main-project-style3">
+        <div class="row mar0 filter-layout masonary-layout" style="position: relative; height: 497.95px;">
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item contem ret" style="position: absolute; left: 0px; top: 0px;">
+                <div class="single-project-style6">
                     <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/project-single/video-gallery-1.jpg')}}" alt="Awesome Image">
-                        <div class="icon-holder">
-                            <div class="icon">
-                                <div class="inner text-center">
-                                    <a class="html5lightbox wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="crystalo Video Gallery" href="https://www.youtube.com/watch?v=p25gICT63ek">
-                                        <span class="flaticon-play-button"></span>
-                                    </a>
+                        <img src="{{asset('front_end2/images/projects/v3-1.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="single-project-image-gallery">
-                    <img src="{{asset('front_end2/images/projects/project-single/image-gallery-1.jpg')}}" alt="Awesome Image">
+            <!--End single project item-->
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 259px; top: 0px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-2.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!--End single project item-->
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod ret" style="position: absolute; left: 519px; top: 0px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-3.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single project item-->
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 779px; top: 0px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-4.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single project item-->
+
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item contem ret" style="position: absolute; left: 0px; top: 248px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-5.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single project item-->
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 259px; top: 248px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-6.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single project item-->
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod ret" style="position: absolute; left: 519px; top: 248px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-7.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single project item-->
+            <!--Start single project item-->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 779px; top: 248px;">
+                <div class="single-project-style6">
+                    <div class="img-holder">
+                        <img src="{{asset('front_end2/images/projects/v3-8.jpg')}}" alt="Awesome Image">
+                        <div class="overlay-content">
+                            <div class="inner-content">
+                                <div class="title-box">
+                                    <span>Contemporary</span>
+                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single project item-->
         </div>
     </div>
 </section>
-<!--End Video Image Gallery Area-->
 
 <!--Start Similar projects Area-->
 <section class="similar-projects-area">

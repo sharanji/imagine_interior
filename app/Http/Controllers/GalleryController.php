@@ -20,16 +20,18 @@ class GalleryController extends Controller
 		$pageData['gallery'] = 1;
 		$pageData['type'] = 'view';
 
-        $page_items = isset($request->page_items) ? $request->page_items : 10; 
-        $keywords = isset($request->keywords) ? $request->keywords : ""; 
+        if(!isset($request['project_id'])){
+            return redirect('manage-projects.html');
+        }
 
-        if( !empty($_FILES['images']) )
+        if(!empty($_FILES['images']) )
         {
             $images = $_FILES['images'];
             for ($i=0; $i < count($images['name']); $i++) { 
                 move_uploaded_file($images['tmp_name'][$i], 'public/uploads/gallery_images/'.$images['name'][$i]);
                 DB::table('gallery')->insert(
                     array( 
+                        "project_id" => $request['project_id'],
                         "label_id" => $request['label_id'],
                         "image_label" => $images['name'][$i],
                     )
@@ -39,15 +41,17 @@ class GalleryController extends Controller
         }
 
         
-		$pageData['galleryLables'] = DB::table('gallery_lables')
-						->orderby("gallery_lables.label_name","DESC")->get();
+        $pageData['galleryLables'] = DB::table('gallery_lables')->orderby("gallery_lables.label_name","DESC")->get();
+
         $firstLabel = $pageData['galleryLables'][0]->label_name;
-		$view =  view($this->back_end."/gallery/manageGallery", $pageData);
+        $view =  view($this->back_end."/gallery/manageGallery", $pageData);
 
         if(!isset($_GET['label'])) {
             $_GET['label']=  $firstLabel;
         }
-		return $view;
+        return $view;
+
+        
     }
 
     function addGalleryLabel(Request $request) {
