@@ -378,4 +378,20 @@ class Reports extends Model
 		$result = DB::select($query);
 		return $result;
 	}
+
+	function enquiryReports() {
+
+		$result = array();
+
+		$query = "select count(*) as total_enquiry from enquiry";
+		$result['total_enquiry'] = DB::select($query)[0]->total_enquiry;
+		
+		$query = "select count(*) as closed_enquiry from enquiry where status=1";
+		$result['closed_enquiry'] = DB::select($query)[0]->closed_enquiry;
+		
+		$result['unclosed_enquiry'] = $result['total_enquiry'] - $result['closed_enquiry'];
+	
+		return $result;
+
+	}
 }

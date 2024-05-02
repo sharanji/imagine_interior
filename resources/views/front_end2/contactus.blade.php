@@ -68,18 +68,19 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12">
-                <div class="contact-form">
+                <div id="contact" class="contact-form">
                     <div class="sec-title with-text">
                         <p>Drop Us a Line</p>
                         <div class="title">Send Your <span>Message</span></div>
                         <p class="bottom-text">If you have question or would like more information on our works, Please complete the form and we’ll aim get back to you with in 24 hours.</p>
                     </div>
                     <div class="inner-box">
-                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
+                        <form class="" action="{{route("addEnquiry")}}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-box">
-                                        <input type="text" name="form_name" value="" placeholder="First Name" required="">
+                                        <input type="text" name="name" value="" placeholder="First Name" required="">
                                         <div class="icon">
                                             <i class="fa fa-user" aria-hidden="true"></i>
                                         </div>
@@ -87,7 +88,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-box">
-                                        <input type="text" name="form_name" value="" placeholder="Last Name" required="">
+                                        <input type="text" name="lastname" value="" placeholder="Last Name" required="">
                                         <div class="icon">
                                             <i class="fa fa-user" aria-hidden="true"></i>
                                         </div>
@@ -97,14 +98,14 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-box">
-                                        <select class="selectmenu">
+                                        <select class="selectmenu" name="reason">
                                             <option selected="selected">Enquire About</option>
-                                            <option>Concept Designs</option>
-                                            <option>Project Designs</option>
-                                            <option>Make Overs</option>
-                                            <option>Consulting</option>
-                                            <option>Glass & Wrought</option>
-                                            <option>Space Planning</option>
+                                            <option value="Concept Designs">Concept Designs</option>
+                                            <option value="Project Designs">Project Designs</option>
+                                            <option value="Make Overs">Make Overs</option>
+                                            <option value="Consulting">Consulting</option>
+                                            <option value="& Wrought">Glass & Wrought</option>
+                                            <option value="Space Planning">Space Planning</option>
                                         </select>
                                         <div class="icon">
                                             <i class="fa fa-question" aria-hidden="true"></i>
@@ -143,7 +144,6 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="button-box">
-                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
                                         <button class="btn-one" type="submit" data-loading-text="Please wait...">Send Your Message<span class="flaticon-next"></span></button>
                                     </div>
                                 </div>

@@ -62,7 +62,7 @@
                     <div class="row">
                         <div class="col-md-3 ">
                             <label for="gallery_labels">Add Lables</label>
-                            <input type="text" name="label_name" id="gallery_labels" class="form-control">
+                            <input type="text" name="label_name" required id="gallery_labels" class="form-control">
                         </div>
                         <div class="col-md-3 mt-2">
                             <button type="submit" class="btn btn-primary">Add Label</button>
@@ -81,7 +81,7 @@
                         @endphp
                         @endif
                         <li class="nav-item">
-                            <a class="nav-link <?php echo ($_GET['label'] == $label->label_name)? "active" :''?> }}" href="?label={{$label->label_name}}" aria-current="page" href="#">{{$label->label_name}}</a>
+                            <a class="nav-link <?php echo ($_GET['label'] == $label->label_name)? "active" :''?> }}" href="?project_id={{$_GET['project_id']}}&label={{$label->label_name}}" aria-current="page" href="#">{{$label->label_name}}</a>
                         </li>
                         @endforeach
 

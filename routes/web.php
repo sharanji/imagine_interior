@@ -42,6 +42,17 @@
     Route::match(array('GET','POST'),'/projects/viewsingle/{id}',[ProjectsController::class,'viewsingle']);
 	// Route::match(array('POST'),'/add-gallery-label',[ProjectsController::class,'addGalleryLabel'])->name('addTariff');
 
+    // Factory
+    Route::match(array('GET','POST'),'/manage-factory.html',[FactoryController::class,'manageFactory']);
+    Route::match(array('GET','POST'),'/manage-factory.html/{type}',[FactoryController::class,'manageFactory']);
+    Route::match(array('GET','POST'),'/manage-factory.html/{type}/{id}',[FactoryController::class,'manageFactory']);
+
+    // Vendor
+    Route::match(array('GET','POST'),'/manage-vendor.html',[VendorController::class,'manageVendor']);
+    Route::match(array('GET','POST'),'/manage-vendor.html/{type}',[VendorController::class,'manageVendor']);
+    Route::match(array('GET','POST'),'/manage-vendor.html/{type}/{id}',[VendorController::class,'manageVendor']);
+
+
 
 
     // website
@@ -103,13 +114,29 @@
     });
     Route::get('/portfolio/{projectId}', function ($projectId) {
         $pageData['portfolio'] = 1;
+        $pageData['project_id'] = $projectId;
         $pageData['project'] = DB::table('projects')->where('project_id','=',$projectId)->first();
         $pageData['gallery'] = DB::table('gallery')->where('project_id','=',$projectId)->get();
         return view('front_end2.projectsingle',$pageData);
     });
     
     Route::get('/factory{any}', function () {
-        $pageData['factory'] = 1;
+        
+        
+        $pageData['machines_names'] = $machines_names = DB::select('select machine_name,machine_id from factory');
+       
+        $pageData['machine_id'] = $machines_names[0]->machine_id;
+        $pageData['machine_detail'] = DB::select("select * from factory where machine_id = " . $machines_names[0]->machine_id."");
+       
+        return view('front_end2.factory',$pageData);
+    });
+ 
+    Route::get('/factory.html/{machine_id}', function ($machine_id) {
+        $pageData['machines_names'] = DB::select('select machine_name,machine_id from factory');
+       
+        $pageData['machine_id'] = $machine_id;
+        $pageData['machine_detail'] = DB::select("select * from factory where machine_id = " . $machine_id."");
+       
         return view('front_end2.factory',$pageData);
     });
  

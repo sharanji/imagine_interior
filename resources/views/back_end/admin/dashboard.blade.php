@@ -37,10 +37,7 @@
 												$TodaySale = $totalSales['todaySales'][0]->value ? $totalSales['todaySales'][0]->value :'0';
 											@endphp --}}
                             <p class="m-auto w-75">
-                                You have done <strong> <?php echo CURRENCY_SYMBOL;?>
-                                    <?php //echo number_format($TodaySale,DECIMAL_VALUE,'.','');?>
-                                </strong>
-                                more sales today. Check your Today Sales.
+                                website have reached more users today. Keep working
                             </p>
                         </div>
                     </div>
@@ -152,207 +149,71 @@
     </div>
     <!--Row end-->
 
-    <!--- Sale/Expense/Purchase Start -->
-    {{-- <form action="" method="get">
-        <div class="row">
-            <?php
-								$week =  date('W');
-								$year = date("Y");
-								
-								$ReportCurrentMonth = date('Y-m-d');
-							
-								$fromWeek = date("M d", strtotime("{$year}-W{$week}-1"));
-								$toWeek = date("M d", strtotime("{$year}-W{$week}-7"));
-							
-								$TotalSale = 0;
-								$SaleTitle = 'Today Sale';
-								$ReportTitle = 'Today - '.date("M d");
-							?>
-            <!--sale Start-->
-
-            <div class="col-md-4">
-                <div class="section-new-1 mb-3 dashboard-gradients" style="background: rgb(1,170,173);background: linear-gradient(166deg, rgba(1,170,173,1) 0%, rgba(15,238,242,1) 93%);height: 16rem;">
-                    <div class="p-2">
+    <div class="row">
+        <div class="col-md-6 col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between pb-0">
+                    <h4 class="card-title">Enquiry Tracker</h4>
+                    {{-- <div class="dropdown chart-dropdown">
+                        <button class="btn btn-sm border-0 dropdown-toggle p-0 waves-effect waves-light" type="button" id="dropdownItem4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Last 7 Days
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownItem4">
+                            <a class="dropdown-item" href="#">Last 28 Days</a>
+                            <a class="dropdown-item" href="#">Last Month</a>
+                            <a class="dropdown-item" href="#">Last Year</a>
+                        </div>
+                    </div> --}}
+                </div>
+                <div class="card-content">
+                    <div class="card-body pt-0">
                         <div class="row">
-                            <div class="col-md-6">
-                                <h4 class="text-white">
-                                    <span class="users-section">Sale</span>
-                                </h4>
+                            <div class="col-sm-2 col-12 d-flex flex-column flex-wrap text-center">
+                                <h1 class="font-large-2 text-bold-700 mt-2 mb-0">{{$enquiry['total_enquiry']}}</h1>
+                                <small>Enquiry</small>
                             </div>
-                            <div class="col-md-6 text-right">
-                                <div class="dropdown chart-dropdown">
-                                    <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <?php
-														$salesFilter = Session::get('sales_filter')?Session::get('sales_filter'):'1';
-														foreach(DASHBOARD_FILTER as $key=>$value)
-														{
-															if($salesFilter == $key)
-															{
-																?>
-                                        {{$value}}
-    <?php 
-															}
-														} 
-													?>
-    </button>
-    <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
-        <?php 
-														foreach(DASHBOARD_FILTER as $key=>$value)
-														{
-															if($salesFilter != $key)
-															{
-																?>
-        <a href="{{url('salesfilter.html/'.$key)}}" class="dropdown-item">{{$value}}</a>
-        <?php 
-															}
-														} 
-													?>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="box-contnt-mid">
-        <div class="row">
-            <div class="col-md-8">
+                            <div class="col-sm-10 col-12 d-flex justify-content-center">
+                                <div id="support-tracker-chart" style="min-height: 290px;">
 
-                <h2 class="text-bold-700 mt-1 mb-25 text-white">
-                    <?php echo CURRENCY_SYMBOL;?>
-                </h2>
-                <p class="mt-2 font-medium">Total Sale ()</p>
-            </div>
-
-            <div class="col-md-4">
-                <div class="graph">
-                    <i class="fa fa-shopping-bag font-large"></i>
+                                </div>
+                                <div class="resize-triggers">
+                                    <div class="expand-trigger">
+                                        <div style="width: 385px; height: 291px;"></div>
+                                    </div>
+                                    <div class="contract-trigger"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chart-info d-flex justify-content-between">
+                            <div class="text-center">
+                                <p class="mb-50">Open Tickets</p>
+                                <span class="font-large-1">{{$enquiry['unclosed_enquiry']}}</span>
+                            </div>
+                            <div class="text-center">
+                                <p class="mb-50">Closed Tickets</p>
+                                <span class="font-large-1">{{$enquiry['closed_enquiry']}}</span>
+                            </div>
+                            <div class="text-center">
+                                <p class="mb-50">Response Time</p>
+                                <span class="font-large-1">1d</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <p class="sub-name-dashboard">Report : </p>
-    </div>
-    </div>
-    </div>
-    <!--sale End-->
-
-    <!--Purchase Start-->
-    <div class="col-md-4">
-        <div class="section-new-1 mb-3 dashboard-gradients" style="background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );height: 16rem;">
-            <div class="p-2">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4 class="text-white">
-                            <span class="users-section">Purchase</span>
-                        </h4>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <div class="dropdown chart-dropdown">
-                            <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box-contnt-mid">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h2 class="text-bold-700 mt-1 mb-25 text-white">
-                                <?php echo CURRENCY_SYMBOL?>
-
-                            </h2>
-                            <p class="mt-2 font-medium">Total Purchase ()</p>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="graph">
-                                <i class="fa fa-shopping-cart font-large"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p class="sub-name-dashboard">Report : </p>
-            </div>
-        </div>
-    </div>
-    <!--Purchase End-->
-
-    <!--Expense Start-->
-    <div class="col-md-4">
-        <div class="section-new-1 mb-3 dashboard-gradients" style="background-image: linear-gradient(120deg, #F761A1 0%, #8C1BAB 100%);height: 16rem;">
-            <div class="p-2">
-                <div class="row">
-                    <div class="col-md-6 icons">
-                        <h4 class="text-white">
-                            <span class="users-section">Expense</span>
-                        </h4>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <div class="dropdown chart-dropdown">
-                            <button class="btn btn-sm border-0 dropdown-toggle p-0 text-white" type="button" id="dropdownItem5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <?php
-														$expenseFilter = Session::get('expense_filter')?Session::get('expense_filter'):'1';
-														foreach(DASHBOARD_FILTER as $key=>$value)
-														{
-															if($expenseFilter == $key)
-															{
-																?>
-                                {{$value}}
-                                <?php 
-															}
-														} 
-													?>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right" x-placement="top-end" style="position: absolute; transform: translate3d(166px, -132px, 0px); top: 0px; left: 0px; will-change: transform;" id="sales_filter">
-                                <?php 
-														foreach(DASHBOARD_FILTER as $key=>$value)
-														{
-															if($expenseFilter != $key)
-															{
-																?>
-                                <a href="{{url('expensefilter.html/'.$key)}}" class="dropdown-item">{{$value}}</a>
-                                <?php 
-															}
-														} 
-													?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box-contnt-mid">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h2 class="text-bold-700 mt-1 mb-25 text-white">
-                                <?php echo CURRENCY_SYMBOL;?>
-
-                            </h2>
-                            <p class="mt-2 font-medium">Total Expense ()</p>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="graph">
-                                <i class="fa fa-credit-card font-large"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p class="sub-name-dashboard">Report : </p>
-            </div>
-        </div>
-    </div>
-    <!--Expesnse End-->
-    </div>
-    </form> --}}
-    <!--- Sale/Expense/Purchase end -->
-
-
 
 </section>
 
+<script>
+    var enquiry_percentage = "{{round(($enquiry['closed_enquiry']/$enquiry['total_enquiry'])*100,2)}}";
+
+</script>
 
 <!--Script for charts Start-->
 <script src="{{asset('back_end/app-assets/js/scripts/pages/dashboard-analytics.js')}}"></script>
 <!--Script for charts End-->
+
 
 @endsection

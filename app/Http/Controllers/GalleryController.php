@@ -37,7 +37,7 @@ class GalleryController extends Controller
                     )
                 );
             }
-            return redirect('/manage-gallery.html');
+            return redirect()->back();
         }
 
         
@@ -60,6 +60,6 @@ class GalleryController extends Controller
            return;
        }
        DB::table('gallery_lables')->insert(array('label_name'=>$request['label_name']));
-       return Redirect::to('/manage-gallery.html');
+       return redirect()->back();
     }
 }

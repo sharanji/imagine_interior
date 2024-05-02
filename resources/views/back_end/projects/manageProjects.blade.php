@@ -64,13 +64,15 @@
                         @if ($type=="")
                         <a href="{{url('manage-projects.html/add')}}" class="btn btn-primary">Add Project</a>
                         @else
+                        @if ($id > 0)
                         <a href="{{url('manage-gallery.html?project_id='.$id)}}" class="btn btn-success">Add Images </a>
+                        @endif
                         <a href="{{url('manage-projects.html')}}" class="btn btn-danger">Back</a>
                         @endif
                     </div>
                 </div>
 
-                @if ($type == "view")
+                @if ($type == "view" || $type == "add")
                 @include('back_end.projects.componets.project_view')
                 @else
 

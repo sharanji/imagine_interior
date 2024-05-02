@@ -230,6 +230,104 @@
 </section>
 <!--End about Area-->
 
+<link rel="stylesheet" href="{{asset('front_end2/css/styletwo.css')}}">
+<section class="mb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-8 col-xs-12">
+                <h2 class="title">WHY<span> Imagine Interiors</span> AS YOUR HOME INTERIOR DESIGNERS IN HOSUR?</h2>
+                <p class="title-detail">Decorpot intensely focuses on delivering all-round home interior design services in Hosur that are a perfect blend of art and quality. Having an in-house production unit with Hi-end machines of advanced technology, we help us to provide the best home interior design for our customers. Decorpot <strong>Interior Designers in Bengaluru</strong> are highly skilled and creative, who carry the dreams of our clients and infuse them into designs and shape their dream homes into reality.</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="why-choose__inner p-r-15">
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border box-head--right">
+                            <div class="advantage1"></div>
+                        </div>
+                        <div class="box-body box-body--left">
+                            <p>Founded By Top Corporate Executives</p>
+                        </div>
+                    </div>
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border box-head--right">
+                            <div class="advantage2"></div>
+                        </div>
+                        <div class="box-body box-body--left">
+                            <p>6250+ Residential Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="why-choose__inner p-l-15">
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border">
+                            <div class="advantage5"></div>
+                        </div>
+                        <div class="box-body box-body--right">
+                            <p>Direct Manufacturer to Consumer</p>
+                        </div>
+                    </div>
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border">
+                            <div class="advantage6"></div>
+                        </div>
+                        <div class="box-body box-body--right">
+                            <p>400+ Expert Professionals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="why-choose__inner p-r-15">
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border box-head--right">
+                            <div class="advantage3"></div>
+                        </div>
+                        <div class="box-body box-body--left">
+                            <p>End to End Solution Provider</p>
+                        </div>
+                    </div>
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border box-head--right">
+                            <div class="advantage4"></div>
+                        </div>
+                        <div class="box-body box-body--left">
+                            <p>Authorised Partner with Leading Brands</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="why-choose__inner p-l-15">
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border">
+                            <div class="advantage7"></div>
+                        </div>
+                        <div class="box-body box-body--right">
+                            <p>World-Class Experience Center</p>
+                        </div>
+                    </div>
+                    <div class="box-item clearfix m-t-60">
+                        <div class="box-head box-head--border">
+                            <div class="advantage8"></div>
+                        </div>
+                        <div class="box-body box-body--right">
+                            <p>High Quality Products Assured</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+    </div>
+
+</section>
+
 <!--Start Working Area-->
 <section class="working-area" style="background-image:url({{asset("front_end2/images/parallax-background/working-bg.jpg")}});">
     <div class="container">
@@ -352,7 +450,7 @@
                     <div class="overlay-content">
                         <div class="inner-content">
                             <div class="link-box">
-                                <a class="btn-one" href="#">Case Study<span class="flaticon-next"></span></a>
+                                <a class="btn-one" href="{{url("portfolio.html")}}">Case Study<span class="flaticon-next"></span></a>
                             </div>
                         </div>
                     </div>
@@ -896,196 +994,15 @@
 </section>
 <!--End appointment Area-->
 
-<!--Start latest blog area-->
-<section class="latest-blog-area">
-    <div class="container inner-content">
-        <div class="sec-title text-center">
-            <p>News & Updates</p>
-            <div class="title">Latest From <span>Blog</span></div>
-        </div>
-        <div class="row">
-            <!--Start single blog post-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-blog-post wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="img-holder">
-                        <img src="{{asset("front_end2/images/blog/latest-b-v1-1.jpg")}}" alt="Awesome Image">
-                        <div class="overlay-style-two"></div>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link-icon">
-                                    <a href="#"><span class="flaticon-zoom"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <div class="post-date">
-                            <h3>02 <span>Mar 2019</span></h3>
-                        </div>
-                        <div class="meta-box">
-                            <ul class="meta-info">
-                                <li>By <a href="#">Rubin Santro</a></li>
-                                <li>In <a href="#">Contemporary</a></li>
-                            </ul>
-                        </div>
-                        <h3 class="blog-title"><a href="blog-single.html">Low cost interior designing ideas</a></h3>
-                        <div class="text">
-                            <p>Same as saying through shrinkings from toil & our pain these cases perfectly simple.</p>
-                            <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single blog post-->
-            <!--Start single blog post-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-blog-post wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="img-holder">
-                        <img src="{{asset("front_end2/images/blog/latest-b-v1-2.jpg")}}" alt="Awesome Image">
-                        <div class="overlay-style-two"></div>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link-icon">
-                                    <a href="#"><span class="flaticon-zoom"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <div class="post-date">
-                            <h3>24 <span>Feb 2019</span></h3>
-                        </div>
-                        <div class="meta-box">
-                            <ul class="meta-info">
-                                <li>By <a href="#">Mark Richrdson</a></li>
-                                <li>In <a href="#">Modern Paint</a></li>
-                            </ul>
-                        </div>
-                        <h3 class="blog-title"><a href="blog-single.html">Commercial design for project</a></h3>
-                        <div class="text">
-                            <p>Which is the same as saying through shrinking from toil and pain. These cases are perfectly.</p>
-                            <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single blog post-->
-            <!--Start single blog post-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-blog-post wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="img-holder">
-                        <img src="{{asset("front_end2/images/blog/latest-b-v1-3.jpg")}}" alt="Awesome Image">
-                        <div class="overlay-style-two"></div>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link-icon">
-                                    <a href="#"><span class="flaticon-zoom"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder">
-                        <div class="post-date">
-                            <h3>18 <span>Jan 2019</span></h3>
-                        </div>
-                        <div class="meta-box">
-                            <ul class="meta-info">
-                                <li>By <a href="#">Rubin Santro</a></li>
-                                <li>In <a href="#">Contemporary</a></li>
-                            </ul>
-                        </div>
-                        <h3 class="blog-title"><a href="blog-single.html">Our interior design prediction 2019</a></h3>
-                        <div class="text">
-                            <p>Every pleasure is to be welcomed every pain avoided. in certain circumstances obligations.</p>
-                            <a class="btn-two" href="#">Read More<span class="flaticon-next"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single blog post-->
-        </div>
-    </div>
-</section>
-<!--End latest blog area-->
 
 <!--Start Brand area-->
 <section class="brand-area">
     <div class="container">
         <div class="sec-title">
             <p>Corporate Clients</p>
-            <div class="title">More than <span>2000 Clients</span></div>
+            <div class="title">More than <span>200 Clients</span></div>
         </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <ul class="brand-items-carousel owl-carousel owl-theme">
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/1.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/2.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/3.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/4.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/5.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/6.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/5.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset("front_end2/images/brand/6.png")}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                </ul>
-            </div>
-        </div>
+        @include('front_end2.components.vendors')
     </div>
 </section>
 <!--End Brand area-->

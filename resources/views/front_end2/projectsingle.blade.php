@@ -144,153 +144,54 @@ $rand = rand(0,count($gallery)-1);
 <section class="main-project-area style3">
     <div class="container">
         <ul class="project-filter post-filter has-dynamic-filters-counter">
-            <li data-filter=".filter-item" class="active"><span class="filter-text">All Projects<span class="count">8</span></span></li>
-            <li data-filter=".mod"><span class="filter-text">Modern<span class="count">6</span></span></li>
-            <li data-filter=".contem"><span class="filter-text">Contemporary<span class="count">2</span></span></li>
-            <li data-filter=".trad"><span class="filter-text">Traditional<span class="count">4</span></span></li>
-            <li data-filter=".ret"><span class="filter-text">Retreat<span class="count">4</span></span></li>
+            @php
+            $labels = DB::select("SELECT gallery_lables.label_name, gallery.project_id
+            FROM gallery_lables
+            JOIN gallery ON gallery.label_id = gallery_lables.label_id
+            WHERE gallery.project_id = $project_id
+            GROUP BY gallery_lables.label_name, gallery.project_id");
+            $i = 0;
+            // dd($labels);
+            @endphp
+            @foreach ($labels as $item)
+            <li data-filter=".{{str_replace(' ','_',$item->label_name)}}" @if ($i==0) {{'class=active'}} @endif><span class="filter-text">{{$item->label_name}}</span></li>
+            @php
+            $i++;
+            @endphp
+            @endforeach
         </ul>
     </div>
-    <div class="container-fluid main-project-style3">
-        <div class="row mar0 filter-layout masonary-layout" style="position: relative; height: 497.95px;">
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item contem ret" style="position: absolute; left: 0px; top: 0px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-1.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 259px; top: 0px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-2.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod ret" style="position: absolute; left: 519px; top: 0px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-3.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 779px; top: 0px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-4.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
+    <div class="row filter-layout masonary-layout">
+        @php $gallery = DB::select('select gallery.*,gallery_lables.label_name,projects.project_id,project_name from gallery left join gallery_lables on gallery_lables.label_id = gallery.label_id join projects on projects.project_id = gallery.project_id');
+        // dd($gallery);
+        shuffle($gallery);
+        @endphp
 
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item contem ret" style="position: absolute; left: 0px; top: 248px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-5.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
+        @foreach ($gallery as $item)
+        <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item {{str_replace(' ','_',$item->label_name)}}">
+            <div class="single-project-style4">
+                <div class="img-holder">
+                    <div class="inner">
+                        <img src="{{asset('uploads/gallery_images/'.$item->image_label)}}" alt="Awesome Image">
+                        <div class="overlay-box">
+                            <div class="box">
+                                <div class="link">
+                                    <a href="{{url('portfolio/'.$item->project_id)}}"><span class="icon-out"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 259px; top: 248px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-6.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
+                    <div class="overlay-content">
+                        <div class="title">
+                            <span>{{$item->label_name}}</span>
+                            <h3><a href="{{url('portfolio/'.$item->project_id)}}">{{$item->project_name}}</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod ret" style="position: absolute; left: 519px; top: 248px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-7.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pd0 filter-item mod trad" style="position: absolute; left: 779px; top: 248px;">
-                <div class="single-project-style6">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/projects/v3-8.jpg')}}" alt="Awesome Image">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <span>Contemporary</span>
-                                    <h3><a href="project-single.html">Nathan Brooke House</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
         </div>
+        @endforeach
+
     </div>
 </section>
 

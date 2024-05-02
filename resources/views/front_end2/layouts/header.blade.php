@@ -26,7 +26,7 @@
     <div class="inner-container clearfix">
         <div class="logo-box-style2 float-left">
             <a href="index-2.html">
-                <img width="100" height="80" src="{{asset("front_end2/logo.png")}}" alt="Awesome Logo">
+                <img width="100px" height="50px" src="{{asset("front_end2/logo.png")}}" alt="Awesome Logo">
             </a>
         </div>
         <div class="main-menu-box float-right">
@@ -41,11 +41,22 @@
                 <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
                         <li class="@isset($home) current  @endisset"><a href="{{url('/')}}">Home</a></li>
-                        <li class="@isset($aboutus) current  @endisset"><a href="aboutus.html">About Us</a></li>
-                        <li class="@isset($services) current  @endisset"><a href="services.html">Services</a></li>
-                        <li class="@isset($portfolio) current  @endisset"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="@isset($factory) current  @endisset"><a href="factory.html">Factory</a></li>
-                        <li class="@isset($contact) current  @endisset"><a href="contact.html">Contact</a></li>
+                        <li class="@isset($aboutus) current  @endisset"><a href="{{url('/aboutus.html')}}">About Us</a></li>
+                        <li class="dropdown @isset($services) current  @endisset"><a href="{{url('/services.html')}}">Services</a>
+                            <ul>
+                                <li><a href="{{url('/services.html')}}">View All Services</a></li>
+                                <li><a href="ser-concept-designs.html">Home villa</a></li>
+                                <li><a href="ser-project-designs.html">Apartments</a></li>
+                                <li><a href="ser-make-overs.html">Rooms</a></li>
+                                <li><a href="ser-consulting.html">Kitchen</a></li>
+                                <li><a href="ser-glass-wrought.html">Living Room</a></li>
+                                <li><a href="ser-space-planning.html">Pooja Room</a></li>
+                            </ul>
+                            <div class="dropdown-btn"></div>
+                        </li>
+                        <li class="@isset($portfolio) current  @endisset"><a href="{{url('/portfolio.html')}}">Portfolio</a></li>
+                        <li class="@isset($factory) current  @endisset"><a href="{{url('/factory.html')}}">Factory</a></li>
+                        <li class="@isset($contact) current  @endisset"><a href="{{url('/contact.html')}}">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -67,7 +78,7 @@
                     <a href="shoping-cart.html"><span class="icon-bag"><span class="number">0</span></span></a>
                 </div> --}}
                 <div class="button">
-                    <a class="btn-one" href="#">Get a Quote<span class="flaticon-next"></span></a>
+                    <a class="btn-one" href="{{url('/contact.html')}}#contact">Get a Quote<span class="flaticon-next"></span></a>
                 </div>
             </div>
         </div>

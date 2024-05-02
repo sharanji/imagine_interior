@@ -60,7 +60,7 @@
                                         <h3>Imagine Interiors Was Founded by<br> Chris Miller in Hosur.</h3>
                                     </div>
                                     <div class="text">
-                                        <p>Indignation and dislike men who are so beguiled and demoralized by the charms pleasure of the moment, so blinded by desire, that they cannot foresee shrinking from toil and pain.</p>
+                                        <p>Founded with a passion for transforming spaces, our interior design company aims to bring creativity and functionality into every project.</p>
                                         <a class="btn-two" href="#about_detail">Read More<span class="flaticon-next"></span></a>
                                     </div>
                                 </div>
@@ -322,8 +322,87 @@
     At Imagine Interiors, we don't just design spaces; we create experiences. Welcome to a world of timeless beauty, inspired design, and endless possibilities.
 </section>
 
+<section class="faq-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="faq-content-box">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>When do I need an Interior Designer?</h4>
+                            </div>
+                            <div class="accord-content" style="display: none;">
+                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
+                                    to ensue.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why do I need an Interior Designer?</h4>
+                            </div>
+                            <div class="accord-content collapsed" style="display: none;">
+                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
+                                    to ensue.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why do you have a design fee and purchasing fee on the product?</h4>
+                            </div>
+                            <div class="accord-content" style="">
+                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
+                                    to ensue.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What should I have at our first meeting for my project?</h4>
+                            </div>
+                            <div class="accord-content" style="">
+                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
+                                    to ensue.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How much will my interior design project cost?</h4>
+                            </div>
+                            <div class="accord-content" style="display: none;">
+                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
+                                    to ensue.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How long will it take to to design and build my project?</h4>
+                            </div>
+                            <div class="accord-content" style="">
+                                <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
+                                    to ensue.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--Start Team Area-->
-<section class="team-area">
+{{-- <section class="team-area">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -331,9 +410,9 @@
                     <p>Behind Our Company</p>
                     <div class="title">Expert & Experinced <span>Team</span></div>
                 </div>
-                {{-- <div class="view-all-member style2 float-right">
+                <div class="view-all-member style2 float-right">
                     <a class="btn-one" href="#">All Members<span class="flaticon-next"></span></a>
-                </div> --}}
+                </div>
             </div>
         </div>
         <div class="row">
@@ -342,173 +421,114 @@
                 <div class="single-team-member">
                     <div class="img-holder">
                         <img src="{{asset('front_end2/images/team/v2-1.jpg')}}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>CEO & Founder</span></p>
-                        <h3>Alison Fletcher</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/team/v2-2.jpg')}}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>Designer</span></p>
-                        <h3>Joe Wilson</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/team/v2-3.jpg')}}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>Architect</span></p>
-                        <h3>White Grey</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
-            <!--Start Single Team Member-->
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-team-member">
-                    <div class="img-holder">
-                        <img src="{{asset('front_end2/images/team/v2-4.jpg')}}" alt="Awesome Image">
-                        <ul class="sociallinks">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <div class="overlay">
-                            <div class="box">
-                                <div class="link">
-                                    <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="name text-center">
-                        <p><span>Manager</span></p>
-                        <h3>Kevin Smith</h3>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Team Member-->
+<ul class="sociallinks">
+    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+</ul>
+<div class="overlay">
+    <div class="box">
+        <div class="link">
+            <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
         </div>
     </div>
-</section>
+</div>
+</div>
+<div class="name text-center">
+    <p><span>CEO & Founder</span></p>
+    <h3>Alison Fletcher</h3>
+</div>
+</div>
+</div>
+<!--End Single Team Member-->
+<!--Start Single Team Member-->
+<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+    <div class="single-team-member">
+        <div class="img-holder">
+            <img src="{{asset('front_end2/images/team/v2-2.jpg')}}" alt="Awesome Image">
+            <ul class="sociallinks">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="overlay">
+                <div class="box">
+                    <div class="link">
+                        <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="name text-center">
+            <p><span>Designer</span></p>
+            <h3>Joe Wilson</h3>
+        </div>
+    </div>
+</div>
+<!--End Single Team Member-->
+<!--Start Single Team Member-->
+<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+    <div class="single-team-member">
+        <div class="img-holder">
+            <img src="{{asset('front_end2/images/team/v2-3.jpg')}}" alt="Awesome Image">
+            <ul class="sociallinks">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="overlay">
+                <div class="box">
+                    <div class="link">
+                        <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="name text-center">
+            <p><span>Architect</span></p>
+            <h3>White Grey</h3>
+        </div>
+    </div>
+</div>
+<!--End Single Team Member-->
+<!--Start Single Team Member-->
+<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+    <div class="single-team-member">
+        <div class="img-holder">
+            <img src="{{asset('front_end2/images/team/v2-4.jpg')}}" alt="Awesome Image">
+            <ul class="sociallinks">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="overlay">
+                <div class="box">
+                    <div class="link">
+                        <a class="btn-two" href="blog.html">View Profile<span class="flaticon-next"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="name text-center">
+            <p><span>Manager</span></p>
+            <h3>Kevin Smith</h3>
+        </div>
+    </div>
+</div>
+<!--End Single Team Member-->
+</div>
+</div>
+</section> --}}
 <!--End Team Area-->
 
-<!--Start Brand area style2-->
-<section class="brand-area style2">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <ul>
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('front_end2/images/brand/1.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('front_end2/images/brand/2.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('front_end2/images/brand/3.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('front_end2/images/brand/4.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('front_end2/images/brand/5.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item style2 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="{{asset('front_end2/images/brand/6.png')}}" alt="Awesome Brand Image"></a>
-                        <div class="overlay-content">
-                            <p>Miesian</p>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
+@include('front_end2.components.vendors')
 
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End Brand area style2-->
 @endsection

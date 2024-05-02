@@ -9,13 +9,13 @@
                 <div class="inner-content-box clearfix">
                     <div class="title-s2 text-center">
                         <span>Our Projects</span>
-                        <h1>More than 2300 Projects</h1>
+                        <h1>More than {{DB::select("select count(*) as count from projects")[0]->count}} Projects</h1>
                     </div>
                     <div class="breadcrumb-menu float-left">
                         <ul class="clearfix">
                             <li><a href="index-2.html">Home</a></li>
                             <li><a href="project.html">Projects</a></li>
-                            <li class="active">Classic View V1</li>
+                            {{-- <li class="active">Classic View V1</li> --}}
                         </ul>
                     </div>
                 </div>
@@ -30,230 +30,50 @@
     <div class="container">
         <ul class="project-filter post-filter has-dynamic-filters-counter">
             <li data-filter=".filter-item" class="active"><span class="filter-text">All Projects</span></li>
-            <li data-filter=".mod"><span class="filter-text">Modern</span></li>
-            <li data-filter=".contem"><span class="filter-text">Contemporary</span></li>
-            <li data-filter=".trad"><span class="filter-text">Traditional</span></li>
-            <li data-filter=".ret"><span class="filter-text">Retreat</span></li>
+            @php
+            $labels = DB::select("SELECT gallery_lables.label_name,COUNT(gallery.label_id) as count
+            FROM gallery_lables
+            LEFT JOIN gallery ON gallery.label_id = gallery_lables.label_id
+            GROUP BY gallery_lables.label_name
+            HAVING COUNT(gallery.label_id) > 0
+            ");
+            // dd($labels);
+            @endphp
+            @foreach ($labels as $item)
+            <li data-filter=".{{str_replace(' ','_',$item->label_name)}}"><span class="filter-text">{{$item->label_name}}</span></li>
+            @endforeach
         </ul>
         <div class="row filter-layout masonary-layout">
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item contem ret">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-1.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item mod trad">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-2.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item mod ret">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-3.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
+            @php $gallery = DB::select('select gallery.*,gallery_lables.label_name,projects.project_id,project_name from gallery left join gallery_lables on gallery_lables.label_id = gallery.label_id join projects on projects.project_id = gallery.project_id');
+            // dd($gallery);
+            shuffle($gallery);
+            @endphp
 
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item contem ret">
+            @foreach ($gallery as $item)
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item {{str_replace(' ','_',$item->label_name)}}">
                 <div class="single-project-style4">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-4.jpg')}}" alt="Awesome Image">
+                            <img src="{{asset('uploads/gallery_images/'.$item->image_label)}}" alt="Awesome Image">
                             <div class="overlay-box">
                                 <div class="box">
                                     <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
+                                        <a href="{{url('portfolio/'.$item->project_id)}}"><span class="icon-out"></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="overlay-content">
                             <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
+                                <span>{{$item->label_name}}</span>
+                                <h3><a href="{{url('portfolio/'.$item->project_id)}}">{{$item->project_name}}</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item mod trad">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-5.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item mod ret">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-6.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
+            @endforeach
 
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item contem ret">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-7.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item mod trad">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-8.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 filter-item mod ret">
-                <div class="single-project-style4">
-                    <div class="img-holder">
-                        <div class="inner">
-                            <img src="{{asset('front_end2/images/projects/v1-9.jpg')}}" alt="Awesome Image">
-                            <div class="overlay-box">
-                                <div class="box">
-                                    <div class="link">
-                                        <a href="{{url('portfolio/1')}}"><span class="icon-out"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay-content">
-                            <div class="title">
-                                <span>Modern Design</span>
-                                <h3><a href="{{url('portfolio/1')}}">Art Family Residence</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single project item-->
         </div>
     </div>
 </section>

@@ -20,23 +20,11 @@ class ProjectsController extends Controller
 
         switch ($type) {
             case 'add':
-                if (isset($_POST['title'])) {
-                    $headerId = DB::table('tariff')->insertGetId(
-                        array(
-                            'tittle' => $_POST['title'],
-                        )
-                    );
-                    
-                    for ($i=0; $i < count($_POST['plan_item']); $i++) { 
-                        DB::table('tariff_line')->insert(
-                            array(
-                                'tariff_header_id' => $headerId,
-                                'plan' => $_POST['plan_item'][$i],
-                                'description' => $_POST['plan_desc'][$i],
-                            )
-                        );
-                    }
-                    return redirect('manage-tariff.html');
+                if (isset($_POST['description'])) {
+                    unset($_POST['_token']);
+                    $insertId = DB::table("projects")->insertGetId($_POST);
+
+                    return redirect('manage-projects.html/view/'.$insertId);
                 }
                 else
                 {
@@ -46,12 +34,13 @@ class ProjectsController extends Controller
             case 'view':
                 if (isset($_POST['description'])) {
                     unset($_POST['_token']);
-                    DB::table("projects")->insert($_POST);
+                    DB::table("projects")->where('project_id',$id)->update($_POST);
 
                     return redirect('manage-projects.html');
                 }
                 else
                 {
+                    $pageData['editData'] = DB::table("projects")->where('project_id',$id)->first();
                     $view =  view($this->back_end."/projects/manageProjects", $pageData);
                     return $view;
                 }

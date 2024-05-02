@@ -51,195 +51,217 @@
                 </ul>
             </li>
 
-            <li class="nav-item @if(isset($gallery))has-sub open @endif">
+            {{-- <li class="nav-item @if(isset($gallery))has-sub open @endif">
                 <a href="#"><i class="feather icon-shopping-cart"></i><span class="menu-title">Gallery</span></a>
                 <ul class="menu-content">
 
                     <li --class="@if(isset($gallery)) active @endif">
                         <a href="{{url('manage-gallery.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Gallery</span></a>
-                    </li>
-
-                </ul>
             </li>
 
-            <li class="nav-item @if(isset($tariff))has-sub open @endif">
+        </ul>
+        </li> --}}
+
+        {{-- <li class="nav-item @if(isset($tariff))has-sub open @endif">
                 <a href="#"><i class="feather icon-crosshair"></i><span class="menu-title">Tariff</span></a>
                 <ul class="menu-content">
 
                     <li --class="@if(isset($tariff)) active @endif">
                         <a href="{{url('manage-tariff.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Tariff</span></a>
-                    </li>
+        </li>
 
-                </ul>
-            </li>
+        </ul>
+        </li> --}}
 
-            <li class="nav-item @if(isset($projects))has-sub open @endif">
-                <a href="#"><i class="feather icon-crosshair"></i><span class="menu-title">Projects</span></a>
-                <ul class="menu-content">
+        <li class="nav-item @if(isset($projects))has-sub open @endif">
+            <a href="#"><i class="feather icon-crosshair"></i><span class="menu-title">Projects</span></a>
+            <ul class="menu-content">
 
-                    <li --class="@if(isset($projects)) active @endif">
-                        <a href="{{url('manage-projects.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Tariff</span></a>
-                    </li>
+                <li --class="@if(isset($projects)) active @endif">
+                    <a href="{{url('manage-projects.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Projects</span></a>
+                </li>
 
-                </ul>
-            </li>
+            </ul>
+        </li>
+        <li class="nav-item @if(isset($factory))has-sub open @endif">
+            <a href="#"><i class="feather icon-speaker"></i><span class="menu-title">Factory</span></a>
+            <ul class="menu-content">
+
+                <li --class="@if(isset($factory)) active @endif">
+                    <a href="{{url('manage-factory.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Factory</span></a>
+                </li>
+
+            </ul>
+        </li>
+        <li class="nav-item @if(isset($vendor))has-sub open @endif">
+            <a href="#"><i class="feather icon-truck"></i><span class="menu-title">Vendors</span></a>
+            <ul class="menu-content">
+
+                <li --class="@if(isset($vendor)) active @endif">
+                    <a href="{{url('manage-vendor.html')}}"><i class="feather icon-circle"></i><span class="menu-item">Manage Vendors</span></a>
+                </li>
+
+            </ul>
+        </li>
 
 
 
-            <li class="navigation-header">
-                <span>Settings</span>
-            </li>
 
-            <li class="nav-item <?php if(isset($companySetting)){ ?>has-sub open<?php } ?>">
-                <a href="#"><i class="feather icon-list"></i>
-                    <span class="menu-title" data-i18n="Application Settting">
-                        Application Settting
-                    </span>
-                </a>
-                <ul class="menu-content">
-                    <li --class="<?php if(isset($companySetting)){?> active<?php } ?>">
-                        <a href="{{url('company-setting.html')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Company Setup">Company Setup</span></a>
-                    </li>
-                </ul>
-            </li>
 
-            <li class="nav-item <?php if(isset($systemManager)){?>has-sub open<?php } ?>">
-                <a href="#"><i class="feather icon-layout"></i><span class="menu-title" data-i18n="Content">System Manager</span></a>
-                <!-- Setup start -->
-                <ul class="menu-content">
-                    <li class="<?php if(isset($setup)){?>has-sub open is-shown<?php } ?>">
-                        <a href="#"><i class="feather icon-circle"></i>
-                            <span class="menu-item" data-i18n="Locations">
-                                Setup
-                            </span>
-                        </a>
-                        <ul class="menu-content">
-                            <li>
-                                <a href="#"><i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Profile Settings">
-                                        Profile Settings
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{url('manage-transactionType.html')}}"><i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Manage Transaction Type">
-                                        Manage Transaction Type
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{url('manage-paymentMode.html')}}"><i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Manage Payment Mode">
-                                        Manage Payment Mode
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{url('manage-currencySetup.html')}}"><i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Currency Setup">
-                                        Currency Setup
-                                    </span>
-                                </a>
-                            </li>
+        <li class="navigation-header">
+            <span>Settings</span>
+        </li>
 
-                            <li>
-                                <a href="{{url('manage-currencyConvertion.html')}}"><i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Currency Convertion">
-                                        Currency Convertion
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="{{url('manage-qualification.html')}}">
-                                    <i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Manage Users">
-                                        Manage Qualifications
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="{{url('manage-employeDepartments.html')}}">
-                                    <i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Manage Users">
-                                        Manage Departments
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="{{url('manage-employeDesignations.html')}}">
-                                    <i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Manage Users">
-                                        Manage Designations
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Setup End -->
+        <li class="nav-item <?php if(isset($companySetting)){ ?>has-sub open<?php } ?>">
+            <a href="#"><i class="feather icon-list"></i>
+                <span class="menu-title" data-i18n="Application Settting">
+                    Application Settting
+                </span>
+            </a>
+            <ul class="menu-content">
+                <li --class="<?php if(isset($companySetting)){?> active<?php } ?>">
+                    <a href="{{url('company-setting.html')}}"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Company Setup">Company Setup</span></a>
+                </li>
+            </ul>
+        </li>
 
-                <!-- Users Start-->
-                <ul class="menu-content">
-                    <li class="<?php if(isset($manageUsers)){?>has-sub open is-shown<?php } ?>">
-                        <a href="#"><i class="feather icon-circle"></i>
-                            <span class="menu-item" data-i18n="Users">
-                                User Management
-                            </span>
-                        </a>
-                        <ul class="menu-content">
-                            <li class="">
-                                <a href="{{url('manage-users.html')}}">
-                                    <i class="feather icon-circle"></i>
-                                    <span class="menu-item" data-i18n="Manage Users">
-                                        Manage Users
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="{{url('manage-menus.html')}}">
-                                    <i class="feather icon-circle"></i>
-                                    <span class="menu-item">Manage Menus</span>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="{{url('manage-roles.html')}}">
-                                    <i class="feather icon-circle"></i>
-                                    <span class="menu-item">Manage Roles</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Users End-->
+        <li class="nav-item <?php if(isset($systemManager)){?>has-sub open<?php } ?>">
+            <a href="#"><i class="feather icon-layout"></i><span class="menu-title" data-i18n="Content">System Manager</span></a>
+            <!-- Setup start -->
+            <ul class="menu-content">
+                <li class="<?php if(isset($setup)){?>has-sub open is-shown<?php } ?>">
+                    <a href="#"><i class="feather icon-circle"></i>
+                        <span class="menu-item" data-i18n="Locations">
+                            Setup
+                        </span>
+                    </a>
+                    <ul class="menu-content">
+                        <li>
+                            <a href="#"><i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Profile Settings">
+                                    Profile Settings
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{url('manage-transactionType.html')}}"><i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Manage Transaction Type">
+                                    Manage Transaction Type
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{url('manage-paymentMode.html')}}"><i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Manage Payment Mode">
+                                    Manage Payment Mode
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{url('manage-currencySetup.html')}}"><i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Currency Setup">
+                                    Currency Setup
+                                </span>
+                            </a>
+                        </li>
 
-                <!-- Locations start -->
-                <ul class="menu-content">
-                    <li class="<?php if(isset($locationManager)){?>has-sub open is-shown<?php } ?>">
-                        <a href="#"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Locations">Locations</span></a>
-                        <ul class="menu-content">
-                            <li>
-                                <a href="<?php echo url('manage-country.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage Country">Manage Country</span></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo url('manage-state.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage State">Manage State</span></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo url('manage-district.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage District">Manage District</span></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo url('manage-city.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage City">Manage City</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Locations End -->
-            </li>
+                        <li>
+                            <a href="{{url('manage-currencyConvertion.html')}}"><i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Currency Convertion">
+                                    Currency Convertion
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="{{url('manage-qualification.html')}}">
+                                <i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Manage Users">
+                                    Manage Qualifications
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="{{url('manage-employeDepartments.html')}}">
+                                <i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Manage Users">
+                                    Manage Departments
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="{{url('manage-employeDesignations.html')}}">
+                                <i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Manage Users">
+                                    Manage Designations
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Setup End -->
 
-            <li class="nav-item">
-                <a onclick="Logout()"><i class="feather icon-power" aria-hidden="true"></i><span class="menu-title">Logout</span></a>
-            </li>
-            <button id="sidebar_logout" class="d-none" data-toggle="modal" data-target="#exampleModalCenter">logout buttton</button>
+            <!-- Users Start-->
+            <ul class="menu-content">
+                <li class="<?php if(isset($manageUsers)){?>has-sub open is-shown<?php } ?>">
+                    <a href="#"><i class="feather icon-circle"></i>
+                        <span class="menu-item" data-i18n="Users">
+                            User Management
+                        </span>
+                    </a>
+                    <ul class="menu-content">
+                        <li class="">
+                            <a href="{{url('manage-users.html')}}">
+                                <i class="feather icon-circle"></i>
+                                <span class="menu-item" data-i18n="Manage Users">
+                                    Manage Users
+                                </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="{{url('manage-menus.html')}}">
+                                <i class="feather icon-circle"></i>
+                                <span class="menu-item">Manage Menus</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="{{url('manage-roles.html')}}">
+                                <i class="feather icon-circle"></i>
+                                <span class="menu-item">Manage Roles</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Users End-->
+
+            <!-- Locations start -->
+            <ul class="menu-content">
+                <li class="<?php if(isset($locationManager)){?>has-sub open is-shown<?php } ?>">
+                    <a href="#"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Locations">Locations</span></a>
+                    <ul class="menu-content">
+                        <li>
+                            <a href="<?php echo url('manage-country.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage Country">Manage Country</span></a>
+                        </li>
+                        <li>
+                            <a href="<?php echo url('manage-state.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage State">Manage State</span></a>
+                        </li>
+                        <li>
+                            <a href="<?php echo url('manage-district.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage District">Manage District</span></a>
+                        </li>
+                        <li>
+                            <a href="<?php echo url('manage-city.html');?>"><i class="feather icon-circle"></i><span class="menu-item" data-i18n="Manage City">Manage City</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Locations End -->
+        </li>
+
+        <li class="nav-item">
+            <a onclick="Logout()"><i class="feather icon-power" aria-hidden="true"></i><span class="menu-title">Logout</span></a>
+        </li>
+        <button id="sidebar_logout" class="d-none" data-toggle="modal" data-target="#exampleModalCenter">logout buttton</button>
         </ul>
     </div>
 

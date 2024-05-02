@@ -1,0 +1,177 @@
+.box-head {
+    float: left;
+}
+
+/*.card-body {*/
+/*	margin-top: 4rem !important*/
+/*}*/
+
+body {
+    font-weight: 400;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.title > span {
+    color: #eb391e;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: calc(24 / 18);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.title,
+.title > span {
+    font-size: 22px !important;
+    font-weight: 700;
+}
+
+.m-t-60 {
+    margin-top: 18px;
+}
+
+.p-r-15 {
+    padding-right: 15px;
+}
+
+.p-l-15 {
+    padding-left: 15px;
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.title-detail {
+    margin-top: 10px;
+}
+
+.title-detail {
+    margin-bottom: 2%;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.box-head--border {
+    width: 68px;
+    line-height: 64px;
+}
+
+.box-body {
+    margin-left: 60px;
+    padding: 0 32px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.why-choose__inner .box-head--right {
+    float: right;
+}
+
+.why-choose__inner .box-head {
+    width: 88px;
+}
+
+.why-choose__inner .box-head--border {
+    border: 3px solid #bbb;
+}
+
+.why-choose__inner .box-body p {
+    line-height: 20px;
+    font-size: 16px;
+    padding-top: 6%;
+    font-weight: 700;
+}
+
+.why-choose__inner .box-body--right {
+    margin-left: 88px;
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.why-choose__inner .box-body--left {
+    text-align: right;
+    margin: 0 88px 0 0;
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url("../../fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("../../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.advantage1,
+.advantage2,
+.advantage3,
+.advantage4,
+.advantage5,
+.advantage6,
+.advantage7,
+.advantage8 {
+    background-image: url(../advantage6.png);
+    height: 65px;
+    background-repeat: no-repeat;
+}
+
+.advantage1 {
+    background-position: 45% -3%;
+}
+
+.advantage2 {
+    background-position: 45% 12%;
+}
+
+.advantage3 {
+    background-position: 45% 27%;
+}
+
+.advantage4 {
+    background-position: 45% 42%;
+}
+
+.advantage5 {
+    background-position: 45% 57%;
+}
+
+.advantage6 {
+    background-position: 45% 72%;
+}
+
+.advantage7 {
+    background-position: 45% 88%;
+}
+
+.advantage8 {
+    background-position: 45% 103%;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    position: relative;
+    margin: 30px 0 60px;
+}

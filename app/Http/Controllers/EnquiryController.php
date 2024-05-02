@@ -39,10 +39,11 @@ class EnquiryController extends Controller
     public function addEnquiry(Request $request) {
         if (isset($_POST)) {
             DB::table('enquiry')->insert(array(
-                'first_name' => $request->name,
-                'email' => $request->email,
-                'enquiry_subject' => $request->subject,
-                'enquiry_body' => $request->comments,
+                'first_name' => $request->name . " " .$request->last_name ,
+                'email' => $request->form_email,
+                'phone' => $request->form_phone,
+                'enquiry_subject' => $request->reason,
+                'enquiry_body' => $request->form_message,
                 'date_time' => date("Y/m/d h:i"),
             ));
             return redirect()->back();

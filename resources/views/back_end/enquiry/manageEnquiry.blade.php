@@ -442,10 +442,11 @@
                                         <tr>
                                             <th class="text-center">Controls</th>
                                             <th onclick="sortTable(1)" class="text-center">User Name</th>
-                                            <th onclick="sortTable(2)" class="text-center">Email</th>
-                                            <th onclick="sortTable(3)" style="width: 50%;">Enquiry Details</th>
-                                            <th onclick="sortTable(4)">Date Time</th>
-                                            <th onclick="sortTable(9)" class="text-center">Status</th>
+                                            <th onclick="sortTable(2)" class="text-center">Phone</th>
+                                            <th onclick="sortTable(3)" class="text-center">Email</th>
+                                            <th onclick="sortTable(4)" style="width: 40%;">Enquiry Details</th>
+                                            <th onclick="sortTable(5)">Date Time</th>
+                                            <th onclick="sortTable(6)" style="width: 10%;" class="text-center">Status</th>
                                         </tr>
                                     </thead>
                                     <tbody class="tb-data">
@@ -480,6 +481,7 @@
                                             </td>
 
                                             <td class="text-center">{{$row->first_name}}</td>
+                                            <td class="text-center">{{$row->phone}}</td>
                                             <td class="text-center">{{$row->email}}</td>
                                             <td>
                                                 <b>{{$row->enquiry_subject}}</b>
