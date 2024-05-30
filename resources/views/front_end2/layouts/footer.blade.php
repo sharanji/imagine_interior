@@ -13,7 +13,7 @@
                         <ul>
                             <li>
                                 <h6>Address</h6>
-                                <p>Flat 20, Reynolds Neck, North<br> Helenaville, FV77 8WS</p>
+                                <p>172,TNHB Phase XV,Royakottai Road,<br>Pillaiyar Nagar, Karapalli Hosur, India 635109</p>
                             </li>
                             <li>
                                 <h6>Phone</h6>
