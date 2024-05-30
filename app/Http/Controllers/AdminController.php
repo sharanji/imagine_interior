@@ -25,7 +25,8 @@ class AdminController extends Controller
 		$pageData['dashboard'] = 1;
 
 		$pageData['DashboardData'] = [];
-		$pageData['enquiry'] = Reports::enquiryReports();
+		$reports = new Reports();
+		$pageData['enquiry'] = $reports->enquiryReports();
 
 		$view =  view($this->back_end.'/admin/dashboard', $pageData);
 		return $view;
